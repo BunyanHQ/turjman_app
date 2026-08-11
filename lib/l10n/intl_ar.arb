@@ -1,22 +1,13 @@
 {
     "@@locale": "ar",
-
-
-
     "copySuccess":"تم النسخ إلى الحافظة",
     "@copySuccess": {
         "description": "الرسالة المعروضة عند نسخ النص إلى الحافظة"
     },
-
-
-
     "appTitle":"تُرجمان",
     "@appTitle": {
         "description": "The application title"
     },
-
-
-
     "onBoardingButton1":"ابدأ",
     "@onBoardingButton1": {
         "description": "عنوان الزر الأول في شاشة الإعداد"
@@ -33,9 +24,6 @@
     "@onBoardingButton4": {
         "description": "عنوان الزر الرابع في شاشة الإعداد"
     },
-
-
-
     "homeTitle":"تُرجمان",
     "@homeTitle": {
         "description": "عنوان الصفحة الرئيسية"
@@ -76,9 +64,6 @@
     "@viewAll": {
         "description": "نص التسمية لعرض الكل"
     },
-
-
-
     "translations":"الترجمات",
     "@translations": {
         "description": "نص التسمية للترجمات"
@@ -95,9 +80,6 @@
     "@translationTitle": {
         "description": "نص التسمية لعنوان الترجمة"
     },
-
-
-
     "audioTitle":"الترجمة الصوتية",
     "@audioTitle": {
         "description": "نص التسمية لعنوان الترجمة الصوتية"
@@ -114,9 +96,6 @@
     "@translationText": {
         "description": "نص التسمية لعنوان نص الترجمة"
     },
-
-
-
     "imageTitle":"صورة إلى نص",
     "@imageTitle": {
         "description": "نص التسمية لعنوان الصورة"
@@ -149,9 +128,6 @@
     "@supportedFormats": {
         "description": "نص التسمية للصيغ المدعومة للصور"
     },
-
-
-
     "settingsTitle":"الإعدادات",
     "@settingsTitle": {
         "description": "نص التسمية لعنوان الإعدادات"
@@ -168,9 +144,10 @@
     "@dataAndStorage": {
         "description": "نص التسمية لقسم البيانات والتخزين"
     },
-
-
-
+    "support":"الدعم",
+    "@support": {
+        "description": "نص التسمية لقسم الدعم"
+    },
     "themeTitle":"المظهر",
     "@themeTitle": {
         "description": "نص التسمية لعنوان المظهر"
@@ -191,9 +168,6 @@
     "@themeSystem": {
         "description": "نص التسمية للوضع الافتراضي للنظام"
     },
-
-
-
     "languageTitle":"اللغة",
     "@languageTitle": {
         "description": "نص التسمية لعنوان اللغة"
@@ -230,9 +204,6 @@
     "@languageItemSubtitle": {
         "description": "نص التسمية للعنوان الفرعي للغة"
     },
-
-
-
     "offlineLanguagesTitle":"اللغات غير المتصلة بالإنترنت",
     "@offlineLanguagesTitle": {
         "description": "نص التسمية لعنوان اللغات غير المتصلة بالإنترنت"
@@ -249,9 +220,6 @@
     "@otherLanguages": {
         "description": "نص التسمية للغات أخرى"
     },
-
-
-
     "downloadFrowWifiOnlyTitle":"تنزيل من الواي فاي فقط",
     "@downloadFrowWifiOnlyTitle": {
         "description": "نص التسمية لعنوان تنزيل من الواي فاي فقط"
@@ -260,9 +228,6 @@
     "@downloadFrowWifiOnlySubtitle": {
         "description": "نص التسمية للعنوان الفرعي للتنزيل من الواي فاي فقط"
     },
-
-
-
     "appCardSubtitle":"ترجم كل شيء. اربط الجميع.",
     "@appCardSubtitle": {
         "description": "نص التسمية للعنوان الفرعي لبطاقة التطبيق"
@@ -274,5 +239,7 @@
     "update":"تحديث",
     "@update": {
         "description": "نص التسمية لزر التحديث"
-    }
+    },
+    "contactUsTitle":"تواصل معنا",
+    "contactUsSubtitle":"تواصلي مع فريق الدعم الخاص بنا"
 }

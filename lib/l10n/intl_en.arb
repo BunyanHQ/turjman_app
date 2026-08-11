@@ -1,22 +1,13 @@
 {
     "@@locale": "en",
-
-
-
     "copySuccess":"Copied to clipboard",
     "@copySuccess": {
         "description": "The message displayed when text is successfully copied to the clipboard"
     },
-
-
-
     "appTitle":"Turjuman",
     "@appTitle": {
         "description": "The application title"
     },
-
-
-
     "onBoardingButton1":"Let's Get Started",
     "@onBoardingButton1": {
         "description": "The title of the first onboarding button"
@@ -33,9 +24,6 @@
     "@onBoardingButton4": {
         "description": "The title of the fourth onboarding button"
     },
-
-
-
     "homeTitle":"Turjuman",
     "@homeTitle": {
         "description": "The title of the home page"
@@ -76,9 +64,6 @@
     "@viewAll": {
         "description": "The view all label"
     },
-
-
-
     "translations":"Translations",
     "@translations": {
         "description": "The translations label"
@@ -95,9 +80,6 @@
     "@translationTitle": {
         "description": "The title for the translation"
     },
-
-
-
     "audioTitle":"Audio Translation",
     "@audioTitle": {
         "description": "The title for the audio translation feature"
@@ -114,9 +96,6 @@
     "@translationText": {
         "description": "The title for the translation text field"
     },
-
-
-
     "imageTitle":"Image to Text",
     "@imageTitle": {
         "description": "The title for the image"
@@ -149,9 +128,6 @@
     "@supportedFormats": {
         "description": "The label for supported image formats"
     },
-
-
-
     "settingsTitle":"Settings",
     "@settingsTitle": {
         "description": "The title for the settings page"
@@ -168,9 +144,10 @@
     "@dataAndStorage": {
         "description": "The label for data and storage section"
     },
-
-
-
+    "support":"Support",
+    "@support": {
+        "description": "The label for support section"
+    },
     "themeTitle":"Theme",
     "@themeTitle": {
         "description": "The title for the theme"
@@ -191,9 +168,6 @@
     "@themeSystem": {
         "description": "The label for the system default theme"
     },
-
-
-
     "languageTitle":"Language",
     "@languageTitle": {
         "description": "The title for the language"
@@ -230,9 +204,6 @@
     "@languageItemSubtitle": {
         "description": "The subtitle for the language item"
     },
-
-
-
     "offlineLanguagesTitle":"Offline Languages",
     "@offlineLanguagesTitle": {
         "description": "The title for the offline languages"
@@ -249,9 +220,6 @@
     "@otherLanguages": {
         "description": "The label for other languages"
     },
-
-
-
     "downloadFrowWifiOnlyTitle":"Download from Wi-Fi Only",
     "@downloadFrowWifiOnlyTitle": {
         "description": "The title for downloading from Wi-Fi"
@@ -260,9 +228,6 @@
     "@downloadFrowWifiOnlySubtitle": {
         "description": "The subtitle for downloading from Wi-Fi"
     },
-
-
-
     "appCardSubtitle":"Translate everything. Connect everyone.",
     "@appCardSubtitle": {
         "description": "The subtitle for the app card"
@@ -274,6 +239,13 @@
     "update":"Update",
     "@update": {
         "description": "The label for the update button"
+    },
+    "contactUsTitle":"Contact Us",
+    "@contactUsTitle": {
+        "description": "The title for the contact us section"
+    },
+    "contactUsSubtitle":"Get in touch with our support team",
+    "@contactUsSubtitle": {
+        "description": "The subtitle for the contact us section"
     }
-
 }

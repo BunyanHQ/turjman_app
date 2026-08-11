@@ -39,7 +39,7 @@ class SettingsBody extends StatelessWidget {
           title: s.offlineLanguagesTitle,
           subtitle: s.offlineLanguagesSubtitle,
           navigationPage: const OfflineLanguagesView(),
-        ),
+        ),       
         BlocBuilder<SettingsCubit, AppUserPref>(
           builder: (context, state) => SettingsItem(
             icon: Icons.wifi,
@@ -50,6 +50,14 @@ class SettingsBody extends StatelessWidget {
             switchValue: cubit.state.downloadOverWiFiOnly,
             onSwitchChanged: (value) => cubit.toggleDownloadOverWiFiOnly(),
           ),
+        ),
+         SettingsTitle(title: s.support),    
+         SettingsItem(
+          icon: IconBroken.Message,
+          title: s.contactUsTitle,
+          iconColor: Colors.blue,
+          subtitle: s.contactUsSubtitle,
+        //  navigationPage: const AppCard(),  
         ),
         Spacer(),
         AppCard(

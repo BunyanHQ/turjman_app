@@ -1,6 +1,7 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+
 import 'intl/messages_all.dart';
 
 // **************************************************************************
@@ -18,8 +19,10 @@ class S {
   static S? _current;
 
   static S get current {
-    assert(_current != null,
-        'No instance of S was loaded. Try to initialize the S delegate before accessing S.current.');
+    assert(
+      _current != null,
+      'No instance of S was loaded. Try to initialize the S delegate before accessing S.current.',
+    );
     return _current!;
   }
 
@@ -41,8 +44,10 @@ class S {
 
   static S of(BuildContext context) {
     final instance = S.maybeOf(context);
-    assert(instance != null,
-        'No instance of S present in the widget tree. Did you add S.delegate in localizationsDelegates?');
+    assert(
+      instance != null,
+      'No instance of S present in the widget tree. Did you add S.delegate in localizationsDelegates?',
+    );
     return instance!;
   }
 
@@ -55,8 +60,7 @@ class S {
     return Intl.message(
       'Copied to clipboard',
       name: 'copySuccess',
-      desc:
-          'The message displayed when text is successfully copied to the clipboard',
+      desc: 'The message displayed when text is successfully copied to the clipboard',
       args: [],
     );
   }
@@ -411,6 +415,16 @@ class S {
     );
   }
 
+  /// `Support`
+  String get support {
+    return Intl.message(
+      'Support',
+      name: 'support',
+      desc: 'The label for support section',
+      args: [],
+    );
+  }
+
   /// `Theme`
   String get themeTitle {
     return Intl.message(
@@ -637,6 +651,26 @@ class S {
       'Update',
       name: 'update',
       desc: 'The label for the update button',
+      args: [],
+    );
+  }
+
+  /// `Contact Us`
+  String get contactUsTitle {
+    return Intl.message(
+      'Contact Us',
+      name: 'contactUsTitle',
+      desc: 'The title for the contact us section',
+      args: [],
+    );
+  }
+
+  /// `Get in touch with our support team`
+  String get contactUsSubtitle {
+    return Intl.message(
+      'Get in touch with our support team',
+      name: 'contactUsSubtitle',
+      desc: 'The subtitle for the contact us section',
       args: [],
     );
   }
