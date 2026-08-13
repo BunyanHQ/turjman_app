@@ -674,6 +674,96 @@ class S {
       args: [],
     );
   }
+
+  /// `Contact Us`
+  String get contactUs {
+    return Intl.message(
+      'Contact Us',
+      name: 'contactUs',
+      desc: 'The title for the contact us page',
+      args: [],
+    );
+  }
+
+  /// `We're here to help. Reach out to us through any of the channels below and our team will get back to you as soon as possible.`
+  String get contactUsDescription {
+    return Intl.message(
+      'We\'re here to help. Reach out to us through any of the channels below and our team will get back to you as soon as possible.',
+      name: 'contactUsDescription',
+      desc: 'The description shown at the top of the contact us page',
+      args: [],
+    );
+  }
+
+  /// `Customer Support`
+  String get customerSupport {
+    return Intl.message(
+      'Customer Support',
+      name: 'customerSupport',
+      desc: 'The label for the customer support section',
+      args: [],
+    );
+  }
+
+  /// `Phone Number`
+  String get contactNumber {
+    return Intl.message(
+      'Phone Number',
+      name: 'contactNumber',
+      desc: 'The label for the phone/WhatsApp number field',
+      args: [],
+    );
+  }
+
+  /// `Email Address`
+  String get emailAddress {
+    return Intl.message(
+      'Email Address',
+      name: 'emailAddress',
+      desc: 'The label for the email address field',
+      args: [],
+    );
+  }
+
+  /// `Social Media`
+  String get socialMedia {
+    return Intl.message(
+      'Social Media',
+      name: 'socialMedia',
+      desc: 'The label for the social media section',
+      args: [],
+    );
+  }
+
+  /// `Instagram`
+  String get instagram {
+    return Intl.message(
+      'Instagram',
+      name: 'instagram',
+      desc: 'The label for the Instagram link',
+      args: [],
+    );
+  }
+
+  /// `Twitter`
+  String get twitter {
+    return Intl.message(
+      'Twitter',
+      name: 'twitter',
+      desc: 'The label for the Twitter link',
+      args: [],
+    );
+  }
+
+  /// `Facebook`
+  String get facebook {
+    return Intl.message(
+      'Facebook',
+      name: 'facebook',
+      desc: 'The label for the Facebook link',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

@@ -21,6 +21,9 @@ import '../../features/translations/presentation/manager/translations_cubit.dart
 import '../../features/offline_languages/data/database/offline_languages_data.dart';
 import '../../features/offline_languages/data/repo/offline_languages_repo_impl.dart';
 import '../../features/offline_languages/presentation/manager/offline_languages_cubit.dart';
+import '../../features/contact_us/data/database/contact_us_database.dart';
+import '../../features/contact_us/data/repo/contact_repo.dart';
+import '../../features/contact_us/data/repo/contact_repo_impl.dart';
 
 var getIt = GetIt.instance;
 
@@ -91,5 +94,12 @@ void setupLocator() {
 
   getIt.registerFactory<OfflineLanguagesCubit>(
     () => OfflineLanguagesCubit(offlineLanguagesRepo: getIt<OfflineLanguagesRepo>()),
+  );
+
+  // Contact Us
+  getIt.registerLazySingleton<ContactDataSource>(() => ContactDataSourceImpl());
+
+  getIt.registerLazySingleton<ContactRepository>(
+    () => ContactRepositoryImpl(getIt<ContactDataSource>()),
   );
 }

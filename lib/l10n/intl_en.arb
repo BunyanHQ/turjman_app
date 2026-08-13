@@ -247,5 +247,41 @@
     "contactUsSubtitle":"Get in touch with our support team",
     "@contactUsSubtitle": {
         "description": "The subtitle for the contact us section"
+    },
+    "contactUs":"Contact Us",
+    "@contactUs": {
+        "description": "The title for the contact us page"
+    },
+    "contactUsDescription":"We're here to help. Reach out to us through any of the channels below and our team will get back to you as soon as possible.",
+    "@contactUsDescription": {
+        "description": "The description shown at the top of the contact us page"
+    },
+    "customerSupport":"Customer Support",
+    "@customerSupport": {
+        "description": "The label for the customer support section"
+    },
+    "contactNumber":"Phone Number",
+    "@contactNumber": {
+        "description": "The label for the phone/WhatsApp number field"
+    },
+    "emailAddress":"Email Address",
+    "@emailAddress": {
+        "description": "The label for the email address field"
+    },
+    "socialMedia":"Social Media",
+    "@socialMedia": {
+        "description": "The label for the social media section"
+    },
+    "instagram":"Instagram",
+    "@instagram": {
+        "description": "The label for the Instagram link"
+    },
+    "twitter":"Twitter",
+    "@twitter": {
+        "description": "The label for the Twitter link"
+    },
+    "facebook":"Facebook",
+    "@facebook": {
+        "description": "The label for the Facebook link"
     }
 }

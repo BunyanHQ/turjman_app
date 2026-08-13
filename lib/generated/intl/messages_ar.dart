@@ -40,11 +40,17 @@ class MessageLookup extends MessageLookupByLibrary {
       "التقاط بالكاميرا",
     ),
     "chooseFromGallery": MessageLookupByLibrary.simpleMessage("اختر من المعرض"),
+    "contactNumber": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
+    "contactUs": MessageLookupByLibrary.simpleMessage("تواصل معنا"),
+    "contactUsDescription": MessageLookupByLibrary.simpleMessage(
+      "نحن هنا لمساعدتك. تواصلي معنا من خلال أي من القنوات أدناه وسيقوم فريقنا بالرد عليكِ في أقرب وقت ممكن.",
+    ),
     "contactUsSubtitle": MessageLookupByLibrary.simpleMessage(
       "تواصلي مع فريق الدعم الخاص بنا",
     ),
     "contactUsTitle": MessageLookupByLibrary.simpleMessage("تواصل معنا"),
     "copySuccess": MessageLookupByLibrary.simpleMessage("تم النسخ إلى الحافظة"),
+    "customerSupport": MessageLookupByLibrary.simpleMessage("دعم العملاء"),
     "dataAndStorage": MessageLookupByLibrary.simpleMessage("البيانات والتخزين"),
     "downloadFrowWifiOnlySubtitle": MessageLookupByLibrary.simpleMessage(
       "قم بتنزيل اللغات فقط عند الاتصال بشبكة واي فاي لتوفير البيانات",
@@ -55,10 +61,12 @@ class MessageLookup extends MessageLookupByLibrary {
     "downloadedLanguages": MessageLookupByLibrary.simpleMessage(
       "اللغات المحمّلة",
     ),
+    "emailAddress": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
     "emptyTranslations": MessageLookupByLibrary.simpleMessage(
       "لا توجد ترجمات بعد",
     ),
     "english": MessageLookupByLibrary.simpleMessage("الإنجليزية"),
+    "facebook": MessageLookupByLibrary.simpleMessage("فيسبوك"),
     "homeSubtitle": MessageLookupByLibrary.simpleMessage(
       "أفضل تطبيق للترجمة لاحتياجاتك",
     ),
@@ -68,6 +76,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "اختر صورة لاستخراج النص منها",
     ),
     "imageTitle": MessageLookupByLibrary.simpleMessage("صورة إلى نص"),
+    "instagram": MessageLookupByLibrary.simpleMessage("إنستغرام"),
     "languageItemSubtitle": MessageLookupByLibrary.simpleMessage(
       "اضغط لتغيير لغة التطبيق",
     ),
@@ -101,6 +110,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "تخصيص التطبيق حسب تفضيلاتك",
     ),
     "settingsTitle": MessageLookupByLibrary.simpleMessage("الإعدادات"),
+    "socialMedia": MessageLookupByLibrary.simpleMessage(
+      "وسائل التواصل الاجتماعي",
+    ),
     "source": MessageLookupByLibrary.simpleMessage("المصدر"),
     "sourceText": MessageLookupByLibrary.simpleMessage("نص المصدر"),
     "sourceTextHint": MessageLookupByLibrary.simpleMessage(
@@ -122,6 +134,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "translationText": MessageLookupByLibrary.simpleMessage("نص الترجمة"),
     "translationTitle": MessageLookupByLibrary.simpleMessage("الترجمة"),
     "translations": MessageLookupByLibrary.simpleMessage("الترجمات"),
+    "twitter": MessageLookupByLibrary.simpleMessage("تويتر"),
     "update": MessageLookupByLibrary.simpleMessage("تحديث"),
     "version": MessageLookupByLibrary.simpleMessage("النسخة"),
     "viewAll": MessageLookupByLibrary.simpleMessage("عرض الكل"),

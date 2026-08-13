@@ -241,5 +241,14 @@
         "description": "نص التسمية لزر التحديث"
     },
     "contactUsTitle":"تواصل معنا",
-    "contactUsSubtitle":"تواصلي مع فريق الدعم الخاص بنا"
+    "contactUsSubtitle":"تواصلي مع فريق الدعم الخاص بنا",
+    "contactUs":"تواصل معنا",
+    "contactUsDescription":"نحن هنا لمساعدتك. تواصلي معنا من خلال أي من القنوات أدناه وسيقوم فريقنا بالرد عليكِ في أقرب وقت ممكن.",
+    "customerSupport":"دعم العملاء",
+    "contactNumber":"رقم الهاتف",
+    "emailAddress":"البريد الإلكتروني",
+    "socialMedia":"وسائل التواصل الاجتماعي",
+    "instagram":"إنستغرام",
+    "twitter":"تويتر",
+    "facebook":"فيسبوك"
 }

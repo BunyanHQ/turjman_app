@@ -42,11 +42,17 @@ class MessageLookup extends MessageLookupByLibrary {
     "chooseFromGallery": MessageLookupByLibrary.simpleMessage(
       "Choose from Gallery",
     ),
+    "contactNumber": MessageLookupByLibrary.simpleMessage("Phone Number"),
+    "contactUs": MessageLookupByLibrary.simpleMessage("Contact Us"),
+    "contactUsDescription": MessageLookupByLibrary.simpleMessage(
+      "We\'re here to help. Reach out to us through any of the channels below and our team will get back to you as soon as possible.",
+    ),
     "contactUsSubtitle": MessageLookupByLibrary.simpleMessage(
       "Get in touch with our support team",
     ),
     "contactUsTitle": MessageLookupByLibrary.simpleMessage("Contact Us"),
     "copySuccess": MessageLookupByLibrary.simpleMessage("Copied to clipboard"),
+    "customerSupport": MessageLookupByLibrary.simpleMessage("Customer Support"),
     "dataAndStorage": MessageLookupByLibrary.simpleMessage("Data & Storage"),
     "downloadFrowWifiOnlySubtitle": MessageLookupByLibrary.simpleMessage(
       "Download language packs only when connected to Wi-Fi to save data.",
@@ -57,10 +63,12 @@ class MessageLookup extends MessageLookupByLibrary {
     "downloadedLanguages": MessageLookupByLibrary.simpleMessage(
       "Downloaded Languages",
     ),
+    "emailAddress": MessageLookupByLibrary.simpleMessage("Email Address"),
     "emptyTranslations": MessageLookupByLibrary.simpleMessage(
       "No translations available",
     ),
     "english": MessageLookupByLibrary.simpleMessage("English"),
+    "facebook": MessageLookupByLibrary.simpleMessage("Facebook"),
     "homeSubtitle": MessageLookupByLibrary.simpleMessage(
       "The best translation app for your needs",
     ),
@@ -70,6 +78,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Select an image to extract text from",
     ),
     "imageTitle": MessageLookupByLibrary.simpleMessage("Image to Text"),
+    "instagram": MessageLookupByLibrary.simpleMessage("Instagram"),
     "languageItemSubtitle": MessageLookupByLibrary.simpleMessage(
       "Tap to change the app language",
     ),
@@ -109,6 +118,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Customize your app experience",
     ),
     "settingsTitle": MessageLookupByLibrary.simpleMessage("Settings"),
+    "socialMedia": MessageLookupByLibrary.simpleMessage("Social Media"),
     "source": MessageLookupByLibrary.simpleMessage("Source"),
     "sourceText": MessageLookupByLibrary.simpleMessage("Source Text"),
     "sourceTextHint": MessageLookupByLibrary.simpleMessage(
@@ -130,6 +140,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "translationText": MessageLookupByLibrary.simpleMessage("Translation Text"),
     "translationTitle": MessageLookupByLibrary.simpleMessage("Translation"),
     "translations": MessageLookupByLibrary.simpleMessage("Translations"),
+    "twitter": MessageLookupByLibrary.simpleMessage("Twitter"),
     "update": MessageLookupByLibrary.simpleMessage("Update"),
     "version": MessageLookupByLibrary.simpleMessage("Version"),
     "viewAll": MessageLookupByLibrary.simpleMessage("View All"),
