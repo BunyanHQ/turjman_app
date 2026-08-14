@@ -283,5 +283,33 @@
     "facebook":"Facebook",
     "@facebook": {
         "description": "The label for the Facebook link"
+    },
+    "rateUs":"Rate Us",
+    "@rateUs": {
+        "description": "The title for the rate us page"
+    },
+    "rateUsSubtitle":"Your feedback helps us improve and reach more people like you.",
+    "@rateUsSubtitle": {
+        "description": "The subtitle for the rate us page"
+    },
+    "enjoyingApp":"Enjoying Turjuman?",
+    "@enjoyingApp": {
+        "description": "The header text asking the user if they enjoy the app"
+    },
+    "tellUsWhatYouThink":"TELL US WHAT YOU THINK",
+    "@tellUsWhatYouThink": {
+        "description": "The label above the feedback text field"
+    },
+    "yourThoughtsMakeUsBetter":"Your thoughts make us better...",
+    "@yourThoughtsMakeUsBetter": {
+        "description": "The hint text inside the feedback text field"
+    },
+    "submit":"Submit",
+    "@submit": {
+        "description": "The label for the submit button"
+    },
+    "maybeLater":"Maybe Later",
+    "@maybeLater": {
+        "description": "The label for the dismiss/skip button"
     }
 }

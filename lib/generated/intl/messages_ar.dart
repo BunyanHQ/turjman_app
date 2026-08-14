@@ -66,6 +66,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "لا توجد ترجمات بعد",
     ),
     "english": MessageLookupByLibrary.simpleMessage("الإنجليزية"),
+    "enjoyingApp": MessageLookupByLibrary.simpleMessage(
+      "مستمتعة بتطبيق تُرجمان؟",
+    ),
     "facebook": MessageLookupByLibrary.simpleMessage("فيسبوك"),
     "homeSubtitle": MessageLookupByLibrary.simpleMessage(
       "أفضل تطبيق للترجمة لاحتياجاتك",
@@ -88,6 +91,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "languagesSubtitle": MessageLookupByLibrary.simpleMessage(
       "اختر لغتك المفضلة للتطبيق",
     ),
+    "maybeLater": MessageLookupByLibrary.simpleMessage("ربما لاحقًا"),
     "offlineLanguagesSubtitle": MessageLookupByLibrary.simpleMessage(
       "قم بتنزيل اللغات لاستخدامها بدون اتصال بالإنترنت",
     ),
@@ -101,6 +105,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "or": MessageLookupByLibrary.simpleMessage("أو"),
     "otherLanguages": MessageLookupByLibrary.simpleMessage("لغات أخرى"),
     "personalization": MessageLookupByLibrary.simpleMessage("التخصيص"),
+    "rateUs": MessageLookupByLibrary.simpleMessage("قيّمي التطبيق"),
+    "rateUsSubtitle": MessageLookupByLibrary.simpleMessage(
+      "رأيك بيساعدنا نتطور ونوصل لناس تانية زيك.",
+    ),
     "recentTranslations": MessageLookupByLibrary.simpleMessage("اخر الترجمات"),
     "selectAnImage": MessageLookupByLibrary.simpleMessage("اختر صورة"),
     "selectAnImageHint": MessageLookupByLibrary.simpleMessage(
@@ -119,10 +127,12 @@ class MessageLookup extends MessageLookupByLibrary {
       "اكتب شيئًا للترجمة",
     ),
     "sourceTitle": MessageLookupByLibrary.simpleMessage("المصدر"),
+    "submit": MessageLookupByLibrary.simpleMessage("إرسال"),
     "support": MessageLookupByLibrary.simpleMessage("الدعم"),
     "supportedFormats": MessageLookupByLibrary.simpleMessage(
       " الصيغ المدعومة: JPG, PNG, GIF",
     ),
+    "tellUsWhatYouThink": MessageLookupByLibrary.simpleMessage("قوليلنا رأيك"),
     "themeDark": MessageLookupByLibrary.simpleMessage("داكن"),
     "themeLight": MessageLookupByLibrary.simpleMessage("فاتح"),
     "themeSubtitle": MessageLookupByLibrary.simpleMessage(
@@ -139,5 +149,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "version": MessageLookupByLibrary.simpleMessage("النسخة"),
     "viewAll": MessageLookupByLibrary.simpleMessage("عرض الكل"),
     "voice": MessageLookupByLibrary.simpleMessage("صوت"),
+    "yourThoughtsMakeUsBetter": MessageLookupByLibrary.simpleMessage(
+      "رأيك بيخلينا أحسن...",
+    ),
   };
 }

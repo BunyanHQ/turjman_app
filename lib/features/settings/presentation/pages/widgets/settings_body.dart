@@ -60,6 +60,12 @@ class SettingsBody extends StatelessWidget {
           subtitle: s.contactUsSubtitle,
           navigationPage: const ContactUsView(),  
         ),
+        SettingsItem(
+          icon: IconBroken.Star,
+           iconColor: Colors.yellow,
+            title: s.rateUs,
+             subtitle: s.rateUsSubtitle
+          ),
         Spacer(),
         AppCard(
         ),

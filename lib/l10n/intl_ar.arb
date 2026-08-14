@@ -250,5 +250,12 @@
     "socialMedia":"وسائل التواصل الاجتماعي",
     "instagram":"إنستغرام",
     "twitter":"تويتر",
-    "facebook":"فيسبوك"
+    "facebook":"فيسبوك",
+    "rateUs":"قيّمي التطبيق",
+    "rateUsSubtitle":"رأيك بيساعدنا نتطور ونوصل لناس تانية زيك.",
+    "enjoyingApp":"مستمتعة بتطبيق تُرجمان؟",
+    "tellUsWhatYouThink":"قوليلنا رأيك",
+    "yourThoughtsMakeUsBetter":"رأيك بيخلينا أحسن...",
+    "submit":"إرسال",
+    "maybeLater":"ربما لاحقًا"
 }

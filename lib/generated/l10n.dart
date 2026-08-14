@@ -764,6 +764,76 @@ class S {
       args: [],
     );
   }
+
+  /// `Rate Us`
+  String get rateUs {
+    return Intl.message(
+      'Rate Us',
+      name: 'rateUs',
+      desc: 'The title for the rate us page',
+      args: [],
+    );
+  }
+
+  /// `Your feedback helps us improve and reach more people like you.`
+  String get rateUsSubtitle {
+    return Intl.message(
+      'Your feedback helps us improve and reach more people like you.',
+      name: 'rateUsSubtitle',
+      desc: 'The subtitle for the rate us page',
+      args: [],
+    );
+  }
+
+  /// `Enjoying Turjuman?`
+  String get enjoyingApp {
+    return Intl.message(
+      'Enjoying Turjuman?',
+      name: 'enjoyingApp',
+      desc: 'The header text asking the user if they enjoy the app',
+      args: [],
+    );
+  }
+
+  /// `TELL US WHAT YOU THINK`
+  String get tellUsWhatYouThink {
+    return Intl.message(
+      'TELL US WHAT YOU THINK',
+      name: 'tellUsWhatYouThink',
+      desc: 'The label above the feedback text field',
+      args: [],
+    );
+  }
+
+  /// `Your thoughts make us better...`
+  String get yourThoughtsMakeUsBetter {
+    return Intl.message(
+      'Your thoughts make us better...',
+      name: 'yourThoughtsMakeUsBetter',
+      desc: 'The hint text inside the feedback text field',
+      args: [],
+    );
+  }
+
+  /// `Submit`
+  String get submit {
+    return Intl.message(
+      'Submit',
+      name: 'submit',
+      desc: 'The label for the submit button',
+      args: [],
+    );
+  }
+
+  /// `Maybe Later`
+  String get maybeLater {
+    return Intl.message(
+      'Maybe Later',
+      name: 'maybeLater',
+      desc: 'The label for the dismiss/skip button',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

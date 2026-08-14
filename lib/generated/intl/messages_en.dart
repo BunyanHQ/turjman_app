@@ -68,6 +68,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "No translations available",
     ),
     "english": MessageLookupByLibrary.simpleMessage("English"),
+    "enjoyingApp": MessageLookupByLibrary.simpleMessage("Enjoying Turjuman?"),
     "facebook": MessageLookupByLibrary.simpleMessage("Facebook"),
     "homeSubtitle": MessageLookupByLibrary.simpleMessage(
       "The best translation app for your needs",
@@ -90,6 +91,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "languagesSubtitle": MessageLookupByLibrary.simpleMessage(
       "Select your preferred language for the app",
     ),
+    "maybeLater": MessageLookupByLibrary.simpleMessage("Maybe Later"),
     "offlineLanguagesSubtitle": MessageLookupByLibrary.simpleMessage(
       "Manage your offline language packs",
     ),
@@ -107,6 +109,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "or": MessageLookupByLibrary.simpleMessage("OR"),
     "otherLanguages": MessageLookupByLibrary.simpleMessage("Other Languages"),
     "personalization": MessageLookupByLibrary.simpleMessage("Personalization"),
+    "rateUs": MessageLookupByLibrary.simpleMessage("Rate Us"),
+    "rateUsSubtitle": MessageLookupByLibrary.simpleMessage(
+      "Your feedback helps us improve and reach more people like you.",
+    ),
     "recentTranslations": MessageLookupByLibrary.simpleMessage(
       "Recent Translations",
     ),
@@ -125,9 +131,13 @@ class MessageLookup extends MessageLookupByLibrary {
       "Type something to translate",
     ),
     "sourceTitle": MessageLookupByLibrary.simpleMessage("Source"),
+    "submit": MessageLookupByLibrary.simpleMessage("Submit"),
     "support": MessageLookupByLibrary.simpleMessage("Support"),
     "supportedFormats": MessageLookupByLibrary.simpleMessage(
       "Supported formats: JPG, PNG, GIF",
+    ),
+    "tellUsWhatYouThink": MessageLookupByLibrary.simpleMessage(
+      "TELL US WHAT YOU THINK",
     ),
     "themeDark": MessageLookupByLibrary.simpleMessage("Dark"),
     "themeLight": MessageLookupByLibrary.simpleMessage("Light"),
@@ -145,5 +155,8 @@ class MessageLookup extends MessageLookupByLibrary {
     "version": MessageLookupByLibrary.simpleMessage("Version"),
     "viewAll": MessageLookupByLibrary.simpleMessage("View All"),
     "voice": MessageLookupByLibrary.simpleMessage("Voice"),
+    "yourThoughtsMakeUsBetter": MessageLookupByLibrary.simpleMessage(
+      "Your thoughts make us better...",
+    ),
   };
 }
