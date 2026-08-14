@@ -1,4 +1,5 @@
 import '../../../../contact_us/presentations/pages/views/contact_us_view.dart';
+import '../../../../rate_us/presentations/pages/views/rate_us_view.dart';
 import 'app_card.dart';
 import 'theme_item.dart';
 import 'settings_item.dart';
@@ -64,7 +65,8 @@ class SettingsBody extends StatelessWidget {
           icon: IconBroken.Star,
            iconColor: Colors.yellow,
             title: s.rateUs,
-             subtitle: s.rateUsSubtitle
+             subtitle: s.rateUsSubtitle,
+              navigationPage: const RateUsView(),
           ),
         Spacer(),
         AppCard(
