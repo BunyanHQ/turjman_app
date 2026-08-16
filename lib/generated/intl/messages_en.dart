@@ -43,6 +43,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Choose from Gallery",
     ),
     "contactNumber": MessageLookupByLibrary.simpleMessage("Phone Number"),
+    "contactSupport": MessageLookupByLibrary.simpleMessage("Contact Support"),
     "contactUs": MessageLookupByLibrary.simpleMessage("Contact Us"),
     "contactUsDescription": MessageLookupByLibrary.simpleMessage(
       "We\'re here to help. Reach out to us through any of the channels below and our team will get back to you as soon as possible.",
@@ -70,10 +71,89 @@ class MessageLookup extends MessageLookupByLibrary {
     "english": MessageLookupByLibrary.simpleMessage("English"),
     "enjoyingApp": MessageLookupByLibrary.simpleMessage("Enjoying Turjuman?"),
     "facebook": MessageLookupByLibrary.simpleMessage("Facebook"),
+    "faqLanguagesAnswer1": MessageLookupByLibrary.simpleMessage(
+      "Turjuman supports dozens of languages for text translation.",
+    ),
+    "faqLanguagesAnswer2": MessageLookupByLibrary.simpleMessage(
+      "New languages are added regularly based on user requests.",
+    ),
+    "faqLanguagesAnswer3": MessageLookupByLibrary.simpleMessage(
+      "Check the Languages section in Settings for the full list.",
+    ),
+    "faqLanguagesQuestion": MessageLookupByLibrary.simpleMessage(
+      "How many languages are supported?",
+    ),
+    "faqOfflineModeAnswer1": MessageLookupByLibrary.simpleMessage(
+      "Yes, once you download a language pack you can translate offline.",
+    ),
+    "faqOfflineModeAnswer2": MessageLookupByLibrary.simpleMessage(
+      "Go to Settings > Offline Languages to manage your downloads.",
+    ),
+    "faqOfflineModeAnswer3": MessageLookupByLibrary.simpleMessage(
+      "Voice and image translation may still require an internet connection.",
+    ),
+    "faqOfflineModeQuestion": MessageLookupByLibrary.simpleMessage(
+      "Can I use the app without internet?",
+    ),
+    "faqPremiumAnswer1": MessageLookupByLibrary.simpleMessage(
+      "Unlimited offline language packs.",
+    ),
+    "faqPremiumAnswer2": MessageLookupByLibrary.simpleMessage(
+      "Priority translation speed with no ads.",
+    ),
+    "faqPremiumAnswer3": MessageLookupByLibrary.simpleMessage(
+      "Early access to new features.",
+    ),
+    "faqPremiumQuestion": MessageLookupByLibrary.simpleMessage(
+      "What do I get with premium?",
+    ),
+    "faqSyncingAnswer1": MessageLookupByLibrary.simpleMessage(
+      "Translation history is currently stored locally on your device.",
+    ),
+    "faqSyncingAnswer2": MessageLookupByLibrary.simpleMessage(
+      "Cross-device sync is planned for a future update.",
+    ),
+    "faqSyncingAnswer3": MessageLookupByLibrary.simpleMessage(
+      "Make sure to back up important translations manually for now.",
+    ),
+    "faqSyncingQuestion": MessageLookupByLibrary.simpleMessage(
+      "Does my translation history sync across devices?",
+    ),
+    "faqTranslateImagesAnswer1": MessageLookupByLibrary.simpleMessage(
+      "Open the Image tab and choose a photo from your gallery.",
+    ),
+    "faqTranslateImagesAnswer2": MessageLookupByLibrary.simpleMessage(
+      "You can also capture a new photo directly with your camera.",
+    ),
+    "faqTranslateImagesAnswer3": MessageLookupByLibrary.simpleMessage(
+      "Supported formats are JPG, PNG, and GIF.",
+    ),
+    "faqTranslateImagesQuestion": MessageLookupByLibrary.simpleMessage(
+      "How do I translate text from an image?",
+    ),
+    "faqVoiceAnswer1": MessageLookupByLibrary.simpleMessage(
+      "Tap the microphone icon and speak clearly into your device.",
+    ),
+    "faqVoiceAnswer2": MessageLookupByLibrary.simpleMessage(
+      "Your speech is converted to text and translated in real time.",
+    ),
+    "faqVoiceAnswer3": MessageLookupByLibrary.simpleMessage(
+      "Voice translation reqسuires an active internet connection.",
+    ),
+    "faqVoiceQuestion": MessageLookupByLibrary.simpleMessage(
+      "How does voice translation work?",
+    ),
+    "frequentlyAsked": MessageLookupByLibrary.simpleMessage(
+      "Frequently Asked Questions",
+    ),
+    "helpCenter": MessageLookupByLibrary.simpleMessage("Help Center"),
     "homeSubtitle": MessageLookupByLibrary.simpleMessage(
       "The best translation app for your needs",
     ),
     "homeTitle": MessageLookupByLibrary.simpleMessage("Turjuman"),
+    "howCanWeHelp": MessageLookupByLibrary.simpleMessage(
+      "How can we help you today?",
+    ),
     "image": MessageLookupByLibrary.simpleMessage("Image"),
     "imageSubtitle": MessageLookupByLibrary.simpleMessage(
       "Select an image to extract text from",
@@ -131,6 +211,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "Type something to translate",
     ),
     "sourceTitle": MessageLookupByLibrary.simpleMessage("Source"),
+    "stillNeedHelp": MessageLookupByLibrary.simpleMessage("Still need help?"),
+    "stillNeedHelpSubtitle": MessageLookupByLibrary.simpleMessage(
+      "Our support team is ready to answer your questions.",
+    ),
     "submit": MessageLookupByLibrary.simpleMessage("Submit"),
     "support": MessageLookupByLibrary.simpleMessage("Support"),
     "supportedFormats": MessageLookupByLibrary.simpleMessage(

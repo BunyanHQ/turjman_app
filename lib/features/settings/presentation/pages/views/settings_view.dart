@@ -11,7 +11,7 @@ class SettingsView extends StatelessWidget {
   Widget build(BuildContext context) {
     return CustomBackground(
       top: _Top(),
-      body: Padding(
+      body:  Padding(
         padding: const EdgeInsets.all(12.0),
         child: const SettingsBody()
       )

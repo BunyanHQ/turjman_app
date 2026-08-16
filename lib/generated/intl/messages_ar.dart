@@ -41,6 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "chooseFromGallery": MessageLookupByLibrary.simpleMessage("اختر من المعرض"),
     "contactNumber": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
+    "contactSupport": MessageLookupByLibrary.simpleMessage("تواصلي مع الدعم"),
     "contactUs": MessageLookupByLibrary.simpleMessage("تواصل معنا"),
     "contactUsDescription": MessageLookupByLibrary.simpleMessage(
       "نحن هنا لمساعدتك. تواصلي معنا من خلال أي من القنوات أدناه وسيقوم فريقنا بالرد عليكِ في أقرب وقت ممكن.",
@@ -70,10 +71,87 @@ class MessageLookup extends MessageLookupByLibrary {
       "مستمتعة بتطبيق تُرجمان؟",
     ),
     "facebook": MessageLookupByLibrary.simpleMessage("فيسبوك"),
+    "faqLanguagesAnswer1": MessageLookupByLibrary.simpleMessage(
+      "تُرجمان بيدعم عشرات اللغات لترجمة النصوص.",
+    ),
+    "faqLanguagesAnswer2": MessageLookupByLibrary.simpleMessage(
+      "بنضيف لغات جديدة باستمرار بناءً على طلبات المستخدمين.",
+    ),
+    "faqLanguagesAnswer3": MessageLookupByLibrary.simpleMessage(
+      "شوفي قسم اللغات في الإعدادات للقائمة الكاملة.",
+    ),
+    "faqLanguagesQuestion": MessageLookupByLibrary.simpleMessage(
+      "كام لغة متاحة في التطبيق؟",
+    ),
+    "faqOfflineModeAnswer1": MessageLookupByLibrary.simpleMessage(
+      "أيوة، بمجرد ما تنزلي حزمة لغة تقدري تترجمي من غير إنترنت.",
+    ),
+    "faqOfflineModeAnswer2": MessageLookupByLibrary.simpleMessage(
+      "روحي على الإعدادات > اللغات غير المتصلة عشان تديري التنزيلات.",
+    ),
+    "faqOfflineModeAnswer3": MessageLookupByLibrary.simpleMessage(
+      "الترجمة الصوتية والصور ممكن تحتاج اتصال بالإنترنت.",
+    ),
+    "faqOfflineModeQuestion": MessageLookupByLibrary.simpleMessage(
+      "أقدر استخدم التطبيق من غير إنترنت؟",
+    ),
+    "faqPremiumAnswer1": MessageLookupByLibrary.simpleMessage(
+      "حزم لغات غير محدودة للاستخدام دون اتصال.",
+    ),
+    "faqPremiumAnswer2": MessageLookupByLibrary.simpleMessage(
+      "سرعة ترجمة أعلى من غير إعلانات.",
+    ),
+    "faqPremiumAnswer3": MessageLookupByLibrary.simpleMessage(
+      "وصول مبكر للمميزات الجديدة.",
+    ),
+    "faqPremiumQuestion": MessageLookupByLibrary.simpleMessage(
+      "هستفيد بإيه من النسخة المميزة؟",
+    ),
+    "faqSyncingAnswer1": MessageLookupByLibrary.simpleMessage(
+      "سجل الترجمات دلوقتي متخزن محليًا على جهازك بس.",
+    ),
+    "faqSyncingAnswer2": MessageLookupByLibrary.simpleMessage(
+      "مزامنة الأجهزة مخطط ليها في تحديث قادم.",
+    ),
+    "faqSyncingAnswer3": MessageLookupByLibrary.simpleMessage(
+      "احرصي على حفظ الترجمات المهمة يدويًا حاليًا.",
+    ),
+    "faqSyncingQuestion": MessageLookupByLibrary.simpleMessage(
+      "سجل الترجمات بيتزامن بين الأجهزة؟",
+    ),
+    "faqTranslateImagesAnswer1": MessageLookupByLibrary.simpleMessage(
+      "افتحي تبويب الصورة واختاري صورة من المعرض.",
+    ),
+    "faqTranslateImagesAnswer2": MessageLookupByLibrary.simpleMessage(
+      "تقدري كمان تلتقطي صورة جديدة بالكاميرا مباشرة.",
+    ),
+    "faqTranslateImagesAnswer3": MessageLookupByLibrary.simpleMessage(
+      "الصيغ المدعومة هي JPG وPNG وGIF.",
+    ),
+    "faqTranslateImagesQuestion": MessageLookupByLibrary.simpleMessage(
+      "إزاي أترجم نص من صورة؟",
+    ),
+    "faqVoiceAnswer1": MessageLookupByLibrary.simpleMessage(
+      "دوسي على أيقونة الميكروفون وتكلمي بوضوح في جهازك.",
+    ),
+    "faqVoiceAnswer2": MessageLookupByLibrary.simpleMessage(
+      "كلامك بيتحول لنص وبيتترجم في نفس الوقت.",
+    ),
+    "faqVoiceAnswer3": MessageLookupByLibrary.simpleMessage(
+      "الترجمة الصوتية محتاجة اتصال إنترنت فعّال.",
+    ),
+    "faqVoiceQuestion": MessageLookupByLibrary.simpleMessage(
+      "إزاي تشتغل الترجمة الصوتية؟",
+    ),
+    "frequentlyAsked": MessageLookupByLibrary.simpleMessage("الأسئلة الشائعة"),
+    "helpCenter": MessageLookupByLibrary.simpleMessage("مركز المساعدة"),
     "homeSubtitle": MessageLookupByLibrary.simpleMessage(
       "أفضل تطبيق للترجمة لاحتياجاتك",
     ),
     "homeTitle": MessageLookupByLibrary.simpleMessage("تُرجمان"),
+    "howCanWeHelp": MessageLookupByLibrary.simpleMessage(
+      "إزاي نقدر نساعدك النهاردة؟",
+    ),
     "image": MessageLookupByLibrary.simpleMessage("صورة"),
     "imageSubtitle": MessageLookupByLibrary.simpleMessage(
       "اختر صورة لاستخراج النص منها",
@@ -127,6 +205,10 @@ class MessageLookup extends MessageLookupByLibrary {
       "اكتب شيئًا للترجمة",
     ),
     "sourceTitle": MessageLookupByLibrary.simpleMessage("المصدر"),
+    "stillNeedHelp": MessageLookupByLibrary.simpleMessage("لسه محتاجة مساعدة؟"),
+    "stillNeedHelpSubtitle": MessageLookupByLibrary.simpleMessage(
+      "فريق الدعم بتاعنا جاهز يرد على أسئلتك.",
+    ),
     "submit": MessageLookupByLibrary.simpleMessage("إرسال"),
     "support": MessageLookupByLibrary.simpleMessage("الدعم"),
     "supportedFormats": MessageLookupByLibrary.simpleMessage(

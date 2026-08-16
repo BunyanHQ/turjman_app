@@ -311,5 +311,125 @@
     "maybeLater":"Maybe Later",
     "@maybeLater": {
         "description": "The label for the dismiss/skip button"
+    },
+    "helpCenter":"Help Center",
+    "@helpCenter": {
+        "description": "The title for the help center page"
+    },
+    "howCanWeHelp":"How can we help you today?",
+    "@howCanWeHelp": {
+        "description": "The header text on the help center page"
+    },
+    "stillNeedHelp":"Still need help?",
+    "@stillNeedHelp": {
+        "description": "The title of the contact support banner"
+    },
+    "stillNeedHelpSubtitle":"Our support team is ready to answer your questions.",
+    "@stillNeedHelpSubtitle": {
+        "description": "The subtitle of the contact support banner"
+    },
+    "contactSupport":"Contact Support",
+    "@contactSupport": {
+        "description": "The label for the contact support button"
+    },
+    "frequentlyAsked":"Frequently Asked Questions",
+    "@frequentlyAsked": {
+        "description": "The title above the FAQ list"
+    },
+    "faqOfflineModeQuestion":"Can I use the app without internet?",
+    "@faqOfflineModeQuestion": {
+        "description": "FAQ question about offline mode"
+    },
+    "faqOfflineModeAnswer1":"Yes, once you download a language pack you can translate offline.",
+    "@faqOfflineModeAnswer1": {
+        "description": "FAQ answer 1 about offline mode"
+    },
+    "faqOfflineModeAnswer2":"Go to Settings > Offline Languages to manage your downloads.",
+    "@faqOfflineModeAnswer2": {
+        "description": "FAQ answer 2 about offline mode"
+    },
+    "faqOfflineModeAnswer3":"Voice and image translation may still require an internet connection.",
+    "@faqOfflineModeAnswer3": {
+        "description": "FAQ answer 3 about offline mode"
+    },
+    "faqTranslateImagesQuestion":"How do I translate text from an image?",
+    "@faqTranslateImagesQuestion": {
+        "description": "FAQ question about translating images"
+    },
+    "faqTranslateImagesAnswer1":"Open the Image tab and choose a photo from your gallery.",
+    "@faqTranslateImagesAnswer1": {
+        "description": "FAQ answer 1 about translating images"
+    },
+    "faqTranslateImagesAnswer2":"You can also capture a new photo directly with your camera.",
+    "@faqTranslateImagesAnswer2": {
+        "description": "FAQ answer 2 about translating images"
+    },
+    "faqTranslateImagesAnswer3":"Supported formats are JPG, PNG, and GIF.",
+    "@faqTranslateImagesAnswer3": {
+        "description": "FAQ answer 3 about translating images"
+    },
+    "faqSyncingQuestion":"Does my translation history sync across devices?",
+    "@faqSyncingQuestion": {
+        "description": "FAQ question about syncing"
+    },
+    "faqSyncingAnswer1":"Translation history is currently stored locally on your device.",
+    "@faqSyncingAnswer1": {
+        "description": "FAQ answer 1 about syncing"
+    },
+    "faqSyncingAnswer2":"Cross-device sync is planned for a future update.",
+    "@faqSyncingAnswer2": {
+        "description": "FAQ answer 2 about syncing"
+    },
+    "faqSyncingAnswer3":"Make sure to back up important translations manually for now.",
+    "@faqSyncingAnswer3": {
+        "description": "FAQ answer 3 about syncing"
+    },
+    "faqPremiumQuestion":"What do I get with premium?",
+    "@faqPremiumQuestion": {
+        "description": "FAQ question about premium"
+    },
+    "faqPremiumAnswer1":"Unlimited offline language packs.",
+    "@faqPremiumAnswer1": {
+        "description": "FAQ answer 1 about premium"
+    },
+    "faqPremiumAnswer2":"Priority translation speed with no ads.",
+    "@faqPremiumAnswer2": {
+        "description": "FAQ answer 2 about premium"
+    },
+    "faqPremiumAnswer3":"Early access to new features.",
+    "@faqPremiumAnswer3": {
+        "description": "FAQ answer 3 about premium"
+    },
+    "faqLanguagesQuestion":"How many languages are supported?",
+    "@faqLanguagesQuestion": {
+        "description": "FAQ question about supported languages"
+    },
+    "faqLanguagesAnswer1":"Turjuman supports dozens of languages for text translation.",
+    "@faqLanguagesAnswer1": {
+        "description": "FAQ answer 1 about supported languages"
+    },
+    "faqLanguagesAnswer2":"New languages are added regularly based on user requests.",
+    "@faqLanguagesAnswer2": {
+        "description": "FAQ answer 2 about supported languages"
+    },
+    "faqLanguagesAnswer3":"Check the Languages section in Settings for the full list.",
+    "@faqLanguagesAnswer3": {
+        "description": "FAQ answer 3 about supported languages"
+    },
+    "faqVoiceQuestion":"How does voice translation work?",
+    "@faqVoiceQuestion": {
+        "description": "FAQ question about voice translation"
+    },
+    "faqVoiceAnswer1":"Tap the microphone icon and speak clearly into your device.",
+    "@faqVoiceAnswer1": {
+        "description": "FAQ answer 1 about voice translation"
+    },
+    "faqVoiceAnswer2":"Your speech is converted to text and translated in real time.",
+    "@faqVoiceAnswer2": {
+        "description": "FAQ answer 2 about voice translation"
+    },
+    "faqVoiceAnswer3":"Voice translation reqسuires an active internet connection.",
+    "@faqVoiceAnswer3": {
+        "description": "FAQ answer 3 about voice translation"
     }
 }

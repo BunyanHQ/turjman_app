@@ -21,58 +21,66 @@ class SettingsBody extends StatelessWidget {
   Widget build(BuildContext context) {
     var s = S.of(context);
     var cubit = SettingsCubit.get(context);
-    return Column(
-      spacing: 10.h,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        SettingsTitle(title: s.personalization),
-        const ThemeItem(),
-        SettingsItem(
-          icon: IconBroken.Swap,
-          title: s.languageTitle,
-          iconColor: Colors.purple,
-          subtitle: s.languageSubtitle,
-          navigationPage: const AppLanguageView(),
-        ),
-        SettingsTitle(title: s.dataAndStorage),
-        SettingsItem(
-          icon: IconBroken.Download,
-          iconColor: Colors.green,
-          title: s.offlineLanguagesTitle,
-          subtitle: s.offlineLanguagesSubtitle,
-          navigationPage: const OfflineLanguagesView(),
-        ),       
-        BlocBuilder<SettingsCubit, AppUserPref>(
-          builder: (context, state) => SettingsItem(
-            icon: Icons.wifi,
-            isSwitch: true,
-            iconColor: Colors.orange,
-            title: s.downloadFrowWifiOnlyTitle,
-            subtitle: s.downloadFrowWifiOnlySubtitle,
-            switchValue: cubit.state.downloadOverWiFiOnly,
-            onSwitchChanged: (value) => cubit.toggleDownloadOverWiFiOnly(),
+    return SingleChildScrollView(
+      child: Column(
+        spacing: 10.h,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          SettingsTitle(title: s.personalization),
+          const ThemeItem(),
+          SettingsItem(
+            icon: IconBroken.Swap,
+            title: s.languageTitle,
+            iconColor: Colors.purple,
+            subtitle: s.languageSubtitle,
+            navigationPage: const AppLanguageView(),
           ),
-        ),
-         SettingsTitle(title: s.support),    
-         SettingsItem(
-          icon: IconBroken.Message,
-          title: s.contactUsTitle,
-          iconColor: Colors.blue,
-          subtitle: s.contactUsSubtitle,
-          navigationPage: const ContactUsView(),  
-        ),
-        SettingsItem(
-          icon: IconBroken.Star,
-           iconColor: Colors.yellow,
+          SettingsTitle(title: s.dataAndStorage),
+          SettingsItem(
+            icon: IconBroken.Download,
+            iconColor: Colors.green,
+            title: s.offlineLanguagesTitle,
+            subtitle: s.offlineLanguagesSubtitle,
+            navigationPage: const OfflineLanguagesView(),
+          ),
+          BlocBuilder<SettingsCubit, AppUserPref>(
+            builder: (context, state) => SettingsItem(
+              icon: Icons.wifi,
+              isSwitch: true,
+              iconColor: Colors.orange,
+              title: s.downloadFrowWifiOnlyTitle,
+              subtitle: s.downloadFrowWifiOnlySubtitle,
+              switchValue: cubit.state.downloadOverWiFiOnly,
+              onSwitchChanged: (value) => cubit.toggleDownloadOverWiFiOnly(),
+            ),
+          ),
+          SettingsTitle(title: s.support),
+          SettingsItem(
+            icon: IconBroken.Message,
+            title: s.contactUsTitle,
+            iconColor: Colors.blue,
+            subtitle: s.contactUsSubtitle,
+            navigationPage: const ContactUsView(),
+          ),
+          SettingsItem(
+            icon: IconBroken.Star,
+            iconColor: Colors.yellow,
             title: s.rateUs,
-             subtitle: s.rateUsSubtitle,
-              navigationPage: const RateUsView(),
+            subtitle: s.rateUsSubtitle,
+            navigationPage: const RateUsView(),
           ),
-        Spacer(),
-        AppCard(
-        ),
-        SizedBox(height: 20.h),
-      ],
+          SettingsItem(
+            icon: IconBroken.Info_Circle,
+            iconColor: Colors.teal,
+            title: s.helpCenter,
+            subtitle: s.howCanWeHelp,
+           // navigationPage: const HelpCenterPage(),
+          ),
+          SizedBox(height: 24.h),
+          const AppCard(),
+          SizedBox(height: 20.h),
+        ],
+      ),
     );
   }
 }

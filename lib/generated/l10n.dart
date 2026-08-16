@@ -834,6 +834,306 @@ class S {
       args: [],
     );
   }
+
+  /// `Help Center`
+  String get helpCenter {
+    return Intl.message(
+      'Help Center',
+      name: 'helpCenter',
+      desc: 'The title for the help center page',
+      args: [],
+    );
+  }
+
+  /// `How can we help you today?`
+  String get howCanWeHelp {
+    return Intl.message(
+      'How can we help you today?',
+      name: 'howCanWeHelp',
+      desc: 'The header text on the help center page',
+      args: [],
+    );
+  }
+
+  /// `Still need help?`
+  String get stillNeedHelp {
+    return Intl.message(
+      'Still need help?',
+      name: 'stillNeedHelp',
+      desc: 'The title of the contact support banner',
+      args: [],
+    );
+  }
+
+  /// `Our support team is ready to answer your questions.`
+  String get stillNeedHelpSubtitle {
+    return Intl.message(
+      'Our support team is ready to answer your questions.',
+      name: 'stillNeedHelpSubtitle',
+      desc: 'The subtitle of the contact support banner',
+      args: [],
+    );
+  }
+
+  /// `Contact Support`
+  String get contactSupport {
+    return Intl.message(
+      'Contact Support',
+      name: 'contactSupport',
+      desc: 'The label for the contact support button',
+      args: [],
+    );
+  }
+
+  /// `Frequently Asked Questions`
+  String get frequentlyAsked {
+    return Intl.message(
+      'Frequently Asked Questions',
+      name: 'frequentlyAsked',
+      desc: 'The title above the FAQ list',
+      args: [],
+    );
+  }
+
+  /// `Can I use the app without internet?`
+  String get faqOfflineModeQuestion {
+    return Intl.message(
+      'Can I use the app without internet?',
+      name: 'faqOfflineModeQuestion',
+      desc: 'FAQ question about offline mode',
+      args: [],
+    );
+  }
+
+  /// `Yes, once you download a language pack you can translate offline.`
+  String get faqOfflineModeAnswer1 {
+    return Intl.message(
+      'Yes, once you download a language pack you can translate offline.',
+      name: 'faqOfflineModeAnswer1',
+      desc: 'FAQ answer 1 about offline mode',
+      args: [],
+    );
+  }
+
+  /// `Go to Settings > Offline Languages to manage your downloads.`
+  String get faqOfflineModeAnswer2 {
+    return Intl.message(
+      'Go to Settings > Offline Languages to manage your downloads.',
+      name: 'faqOfflineModeAnswer2',
+      desc: 'FAQ answer 2 about offline mode',
+      args: [],
+    );
+  }
+
+  /// `Voice and image translation may still require an internet connection.`
+  String get faqOfflineModeAnswer3 {
+    return Intl.message(
+      'Voice and image translation may still require an internet connection.',
+      name: 'faqOfflineModeAnswer3',
+      desc: 'FAQ answer 3 about offline mode',
+      args: [],
+    );
+  }
+
+  /// `How do I translate text from an image?`
+  String get faqTranslateImagesQuestion {
+    return Intl.message(
+      'How do I translate text from an image?',
+      name: 'faqTranslateImagesQuestion',
+      desc: 'FAQ question about translating images',
+      args: [],
+    );
+  }
+
+  /// `Open the Image tab and choose a photo from your gallery.`
+  String get faqTranslateImagesAnswer1 {
+    return Intl.message(
+      'Open the Image tab and choose a photo from your gallery.',
+      name: 'faqTranslateImagesAnswer1',
+      desc: 'FAQ answer 1 about translating images',
+      args: [],
+    );
+  }
+
+  /// `You can also capture a new photo directly with your camera.`
+  String get faqTranslateImagesAnswer2 {
+    return Intl.message(
+      'You can also capture a new photo directly with your camera.',
+      name: 'faqTranslateImagesAnswer2',
+      desc: 'FAQ answer 2 about translating images',
+      args: [],
+    );
+  }
+
+  /// `Supported formats are JPG, PNG, and GIF.`
+  String get faqTranslateImagesAnswer3 {
+    return Intl.message(
+      'Supported formats are JPG, PNG, and GIF.',
+      name: 'faqTranslateImagesAnswer3',
+      desc: 'FAQ answer 3 about translating images',
+      args: [],
+    );
+  }
+
+  /// `Does my translation history sync across devices?`
+  String get faqSyncingQuestion {
+    return Intl.message(
+      'Does my translation history sync across devices?',
+      name: 'faqSyncingQuestion',
+      desc: 'FAQ question about syncing',
+      args: [],
+    );
+  }
+
+  /// `Translation history is currently stored locally on your device.`
+  String get faqSyncingAnswer1 {
+    return Intl.message(
+      'Translation history is currently stored locally on your device.',
+      name: 'faqSyncingAnswer1',
+      desc: 'FAQ answer 1 about syncing',
+      args: [],
+    );
+  }
+
+  /// `Cross-device sync is planned for a future update.`
+  String get faqSyncingAnswer2 {
+    return Intl.message(
+      'Cross-device sync is planned for a future update.',
+      name: 'faqSyncingAnswer2',
+      desc: 'FAQ answer 2 about syncing',
+      args: [],
+    );
+  }
+
+  /// `Make sure to back up important translations manually for now.`
+  String get faqSyncingAnswer3 {
+    return Intl.message(
+      'Make sure to back up important translations manually for now.',
+      name: 'faqSyncingAnswer3',
+      desc: 'FAQ answer 3 about syncing',
+      args: [],
+    );
+  }
+
+  /// `What do I get with premium?`
+  String get faqPremiumQuestion {
+    return Intl.message(
+      'What do I get with premium?',
+      name: 'faqPremiumQuestion',
+      desc: 'FAQ question about premium',
+      args: [],
+    );
+  }
+
+  /// `Unlimited offline language packs.`
+  String get faqPremiumAnswer1 {
+    return Intl.message(
+      'Unlimited offline language packs.',
+      name: 'faqPremiumAnswer1',
+      desc: 'FAQ answer 1 about premium',
+      args: [],
+    );
+  }
+
+  /// `Priority translation speed with no ads.`
+  String get faqPremiumAnswer2 {
+    return Intl.message(
+      'Priority translation speed with no ads.',
+      name: 'faqPremiumAnswer2',
+      desc: 'FAQ answer 2 about premium',
+      args: [],
+    );
+  }
+
+  /// `Early access to new features.`
+  String get faqPremiumAnswer3 {
+    return Intl.message(
+      'Early access to new features.',
+      name: 'faqPremiumAnswer3',
+      desc: 'FAQ answer 3 about premium',
+      args: [],
+    );
+  }
+
+  /// `How many languages are supported?`
+  String get faqLanguagesQuestion {
+    return Intl.message(
+      'How many languages are supported?',
+      name: 'faqLanguagesQuestion',
+      desc: 'FAQ question about supported languages',
+      args: [],
+    );
+  }
+
+  /// `Turjuman supports dozens of languages for text translation.`
+  String get faqLanguagesAnswer1 {
+    return Intl.message(
+      'Turjuman supports dozens of languages for text translation.',
+      name: 'faqLanguagesAnswer1',
+      desc: 'FAQ answer 1 about supported languages',
+      args: [],
+    );
+  }
+
+  /// `New languages are added regularly based on user requests.`
+  String get faqLanguagesAnswer2 {
+    return Intl.message(
+      'New languages are added regularly based on user requests.',
+      name: 'faqLanguagesAnswer2',
+      desc: 'FAQ answer 2 about supported languages',
+      args: [],
+    );
+  }
+
+  /// `Check the Languages section in Settings for the full list.`
+  String get faqLanguagesAnswer3 {
+    return Intl.message(
+      'Check the Languages section in Settings for the full list.',
+      name: 'faqLanguagesAnswer3',
+      desc: 'FAQ answer 3 about supported languages',
+      args: [],
+    );
+  }
+
+  /// `How does voice translation work?`
+  String get faqVoiceQuestion {
+    return Intl.message(
+      'How does voice translation work?',
+      name: 'faqVoiceQuestion',
+      desc: 'FAQ question about voice translation',
+      args: [],
+    );
+  }
+
+  /// `Tap the microphone icon and speak clearly into your device.`
+  String get faqVoiceAnswer1 {
+    return Intl.message(
+      'Tap the microphone icon and speak clearly into your device.',
+      name: 'faqVoiceAnswer1',
+      desc: 'FAQ answer 1 about voice translation',
+      args: [],
+    );
+  }
+
+  /// `Your speech is converted to text and translated in real time.`
+  String get faqVoiceAnswer2 {
+    return Intl.message(
+      'Your speech is converted to text and translated in real time.',
+      name: 'faqVoiceAnswer2',
+      desc: 'FAQ answer 2 about voice translation',
+      args: [],
+    );
+  }
+
+  /// `Voice translation reqسuires an active internet connection.`
+  String get faqVoiceAnswer3 {
+    return Intl.message(
+      'Voice translation reqسuires an active internet connection.',
+      name: 'faqVoiceAnswer3',
+      desc: 'FAQ answer 3 about voice translation',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
