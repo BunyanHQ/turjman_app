@@ -1125,12 +1125,222 @@ class S {
     );
   }
 
-  /// `Voice translation reqسuires an active internet connection.`
+  /// `Voice translation requires an active internet connection.`
   String get faqVoiceAnswer3 {
     return Intl.message(
-      'Voice translation reqسuires an active internet connection.',
+      'Voice translation requires an active internet connection.',
       name: 'faqVoiceAnswer3',
       desc: 'FAQ answer 3 about voice translation',
+      args: [],
+    );
+  }
+
+  /// `Privacy Policy`
+  String get privacyPolicy {
+    return Intl.message(
+      'Privacy Policy',
+      name: 'privacyPolicy',
+      desc: 'The title for the privacy policy page',
+      args: [],
+    );
+  }
+
+  /// `LEGAL DOCUMENTATION`
+  String get legalDocumentation {
+    return Intl.message(
+      'LEGAL DOCUMENTATION',
+      name: 'legalDocumentation',
+      desc: 'The small tag label above the privacy policy title',
+      args: [],
+    );
+  }
+
+  /// `Privacy Policy`
+  String get privacyPolicyTitle {
+    return Intl.message(
+      'Privacy Policy',
+      name: 'privacyPolicyTitle',
+      desc: 'The large title on the privacy policy page',
+      args: [],
+    );
+  }
+
+  /// `Last updated: June 2024`
+  String get lastUpdated {
+    return Intl.message(
+      'Last updated: June 2024',
+      name: 'lastUpdated',
+      desc: 'The label showing when the privacy policy was last updated',
+      args: [],
+    );
+  }
+
+  /// `Secure by Design`
+  String get secureByDesign {
+    return Intl.message(
+      'Secure by Design',
+      name: 'secureByDesign',
+      desc: 'The title of the secure-by-design highlight card',
+      args: [],
+    );
+  }
+
+  /// `Your data is encrypted and never sold to third parties.`
+  String get secureByDesignSubtitle {
+    return Intl.message(
+      'Your data is encrypted and never sold to third parties.',
+      name: 'secureByDesignSubtitle',
+      desc: 'The subtitle of the secure-by-design highlight card',
+      args: [],
+    );
+  }
+
+  /// `PROCESSING & STORAGE`
+  String get processingStorageTag {
+    return Intl.message(
+      'PROCESSING & STORAGE',
+      name: 'processingStorageTag',
+      desc: 'The tag label for the data collection section',
+      args: [],
+    );
+  }
+
+  /// `Data We Collect`
+  String get dataCollectionTitle {
+    return Intl.message(
+      'Data We Collect',
+      name: 'dataCollectionTitle',
+      desc: 'The title for the data collection section',
+      args: [],
+    );
+  }
+
+  /// `We collect the text, images, and audio you choose to translate, along with basic device information to improve app performance.`
+  String get dataCollectionContent {
+    return Intl.message(
+      'We collect the text, images, and audio you choose to translate, along with basic device information to improve app performance.',
+      name: 'dataCollectionContent',
+      desc: 'The content for the data collection section',
+      args: [],
+    );
+  }
+
+  /// `We never read or store your translations for any purpose other than providing the service to you.`
+  String get dataCollectionQuote {
+    return Intl.message(
+      'We never read or store your translations for any purpose other than providing the service to you.',
+      name: 'dataCollectionQuote',
+      desc: 'The highlighted quote inside the data collection section',
+      args: [],
+    );
+  }
+
+  /// `OFFLINE MODE`
+  String get offlineModeTag {
+    return Intl.message(
+      'OFFLINE MODE',
+      name: 'offlineModeTag',
+      desc: 'The tag label for the offline usage section',
+      args: [],
+    );
+  }
+
+  /// `Offline Usage`
+  String get offlineUsageTitle {
+    return Intl.message(
+      'Offline Usage',
+      name: 'offlineUsageTitle',
+      desc: 'The title for the offline usage section',
+      args: [],
+    );
+  }
+
+  /// `When you download a language pack, translations happen entirely on your device and are never sent to our servers.`
+  String get offlineUsageContent {
+    return Intl.message(
+      'When you download a language pack, translations happen entirely on your device and are never sent to our servers.',
+      name: 'offlineUsageContent',
+      desc: 'The content for the offline usage section',
+      args: [],
+    );
+  }
+
+  /// `AUDIO INPUT`
+  String get audioInputTag {
+    return Intl.message(
+      'AUDIO INPUT',
+      name: 'audioInputTag',
+      desc: 'The tag label for the microphone access section',
+      args: [],
+    );
+  }
+
+  /// `Microphone Access`
+  String get microphoneAccessTitle {
+    return Intl.message(
+      'Microphone Access',
+      name: 'microphoneAccessTitle',
+      desc: 'The title for the microphone access section',
+      args: [],
+    );
+  }
+
+  /// `Microphone access is only used while you are actively recording a voice translation.`
+  String get microphoneAccessContent {
+    return Intl.message(
+      'Microphone access is only used while you are actively recording a voice translation.',
+      name: 'microphoneAccessContent',
+      desc: 'The content for the microphone access section',
+      args: [],
+    );
+  }
+
+  /// `Audio is processed in real time and not stored after translation.`
+  String get microphoneBullet1 {
+    return Intl.message(
+      'Audio is processed in real time and not stored after translation.',
+      name: 'microphoneBullet1',
+      desc: 'First bullet point for the microphone access section',
+      args: [],
+    );
+  }
+
+  /// `You can revoke microphone permission anytime from your device settings.`
+  String get microphoneBullet2 {
+    return Intl.message(
+      'You can revoke microphone permission anytime from your device settings.',
+      name: 'microphoneBullet2',
+      desc: 'Second bullet point for the microphone access section',
+      args: [],
+    );
+  }
+
+  /// `DATA SHARING`
+  String get dataSharingTag {
+    return Intl.message(
+      'DATA SHARING',
+      name: 'dataSharingTag',
+      desc: 'The tag label for the third-party section',
+      args: [],
+    );
+  }
+
+  /// `Third-Party Services`
+  String get thirdPartyTitle {
+    return Intl.message(
+      'Third-Party Services',
+      name: 'thirdPartyTitle',
+      desc: 'The title for the third-party section',
+      args: [],
+    );
+  }
+
+  /// `We use trusted third-party services strictly for translation processing and app functionality. We do not sell your personal data.`
+  String get thirdPartyContent {
+    return Intl.message(
+      'We use trusted third-party services strictly for translation processing and app functionality. We do not sell your personal data.',
+      name: 'thirdPartyContent',
+      desc: 'The content for the third-party section',
       args: [],
     );
   }

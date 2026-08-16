@@ -34,6 +34,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "appTitle": MessageLookupByLibrary.simpleMessage("تُرجمان"),
     "arabic": MessageLookupByLibrary.simpleMessage("العربية"),
+    "audioInputTag": MessageLookupByLibrary.simpleMessage("الإدخال الصوتي"),
     "audioTitle": MessageLookupByLibrary.simpleMessage("الترجمة الصوتية"),
     "camera": MessageLookupByLibrary.simpleMessage("كاميرا"),
     "captureWithCamera": MessageLookupByLibrary.simpleMessage(
@@ -53,6 +54,16 @@ class MessageLookup extends MessageLookupByLibrary {
     "copySuccess": MessageLookupByLibrary.simpleMessage("تم النسخ إلى الحافظة"),
     "customerSupport": MessageLookupByLibrary.simpleMessage("دعم العملاء"),
     "dataAndStorage": MessageLookupByLibrary.simpleMessage("البيانات والتخزين"),
+    "dataCollectionContent": MessageLookupByLibrary.simpleMessage(
+      "بنجمع النصوص والصور والملفات الصوتية اللي بتختاري ترجمتها، بالإضافة لمعلومات أساسية عن جهازك لتحسين أداء التطبيق.",
+    ),
+    "dataCollectionQuote": MessageLookupByLibrary.simpleMessage(
+      "إحنا أبدًا مش بنقرأ أو نخزّن ترجماتك لأي غرض غير تقديم الخدمة ليكِ.",
+    ),
+    "dataCollectionTitle": MessageLookupByLibrary.simpleMessage(
+      "البيانات اللي بنجمعها",
+    ),
+    "dataSharingTag": MessageLookupByLibrary.simpleMessage("مشاركة البيانات"),
     "downloadFrowWifiOnlySubtitle": MessageLookupByLibrary.simpleMessage(
       "قم بتنزيل اللغات فقط عند الاتصال بشبكة واي فاي لتوفير البيانات",
     ),
@@ -169,12 +180,35 @@ class MessageLookup extends MessageLookupByLibrary {
     "languagesSubtitle": MessageLookupByLibrary.simpleMessage(
       "اختر لغتك المفضلة للتطبيق",
     ),
+    "lastUpdated": MessageLookupByLibrary.simpleMessage(
+      "آخر تحديث: يونيو 2024",
+    ),
+    "legalDocumentation": MessageLookupByLibrary.simpleMessage("وثيقة قانونية"),
     "maybeLater": MessageLookupByLibrary.simpleMessage("ربما لاحقًا"),
+    "microphoneAccessContent": MessageLookupByLibrary.simpleMessage(
+      "صلاحية الميكروفون بتتستخدم بس وانتِ بتسجلي ترجمة صوتية فعليًا.",
+    ),
+    "microphoneAccessTitle": MessageLookupByLibrary.simpleMessage(
+      "صلاحية الميكروفون",
+    ),
+    "microphoneBullet1": MessageLookupByLibrary.simpleMessage(
+      "الصوت بيتعالج فورًا ومش بيتخزن بعد الترجمة.",
+    ),
+    "microphoneBullet2": MessageLookupByLibrary.simpleMessage(
+      "تقدري تلغي صلاحية الميكروفون في أي وقت من إعدادات جهازك.",
+    ),
     "offlineLanguagesSubtitle": MessageLookupByLibrary.simpleMessage(
       "قم بتنزيل اللغات لاستخدامها بدون اتصال بالإنترنت",
     ),
     "offlineLanguagesTitle": MessageLookupByLibrary.simpleMessage(
       "اللغات غير المتصلة بالإنترنت",
+    ),
+    "offlineModeTag": MessageLookupByLibrary.simpleMessage("الوضع غير المتصل"),
+    "offlineUsageContent": MessageLookupByLibrary.simpleMessage(
+      "لما تنزلي حزمة لغة، الترجمة بتحصل بالكامل على جهازك ومفيش أي بيانات بترسل لسيرفراتنا.",
+    ),
+    "offlineUsageTitle": MessageLookupByLibrary.simpleMessage(
+      "الاستخدام دون اتصال",
     ),
     "onBoardingButton1": MessageLookupByLibrary.simpleMessage("ابدأ"),
     "onBoardingButton2": MessageLookupByLibrary.simpleMessage("التالي"),
@@ -183,11 +217,22 @@ class MessageLookup extends MessageLookupByLibrary {
     "or": MessageLookupByLibrary.simpleMessage("أو"),
     "otherLanguages": MessageLookupByLibrary.simpleMessage("لغات أخرى"),
     "personalization": MessageLookupByLibrary.simpleMessage("التخصيص"),
+    "privacyPolicy": MessageLookupByLibrary.simpleMessage("سياسة الخصوصية"),
+    "privacyPolicyTitle": MessageLookupByLibrary.simpleMessage(
+      "سياسة الخصوصية",
+    ),
+    "processingStorageTag": MessageLookupByLibrary.simpleMessage(
+      "المعالجة والتخزين",
+    ),
     "rateUs": MessageLookupByLibrary.simpleMessage("قيّمي التطبيق"),
     "rateUsSubtitle": MessageLookupByLibrary.simpleMessage(
       "رأيك بيساعدنا نتطور ونوصل لناس تانية زيك.",
     ),
     "recentTranslations": MessageLookupByLibrary.simpleMessage("اخر الترجمات"),
+    "secureByDesign": MessageLookupByLibrary.simpleMessage("آمن بالتصميم"),
+    "secureByDesignSubtitle": MessageLookupByLibrary.simpleMessage(
+      "بياناتك مشفّرة ولا تُباع أبدًا لأي طرف ثالث.",
+    ),
     "selectAnImage": MessageLookupByLibrary.simpleMessage("اختر صورة"),
     "selectAnImageHint": MessageLookupByLibrary.simpleMessage(
       "اختر صورة من معرضك\nأو قم بتصوير واحدة جديدة لاستخراج النص.",
@@ -222,6 +267,12 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "themeSystem": MessageLookupByLibrary.simpleMessage("النظام"),
     "themeTitle": MessageLookupByLibrary.simpleMessage("المظهر"),
+    "thirdPartyContent": MessageLookupByLibrary.simpleMessage(
+      "بنستخدم خدمات موثوقة من أطراف ثالثة فقط لمعالجة الترجمة وتشغيل التطبيق. إحنا مش بنبيع بياناتك الشخصية.",
+    ),
+    "thirdPartyTitle": MessageLookupByLibrary.simpleMessage(
+      "خدمات الطرف الثالث",
+    ),
     "translation": MessageLookupByLibrary.simpleMessage("الترجمة"),
     "translationText": MessageLookupByLibrary.simpleMessage("نص الترجمة"),
     "translationTitle": MessageLookupByLibrary.simpleMessage("الترجمة"),

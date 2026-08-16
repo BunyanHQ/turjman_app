@@ -1,3 +1,4 @@
+import '../../../../../core/widgets/custom_text.dart';
 import '../../../../contact_us/presentations/pages/views/contact_us_view.dart';
 import '../../../../help_centre/views/help_center_view.dart';
 import '../../../../rate_us/presentations/pages/views/rate_us_view.dart';
@@ -79,6 +80,25 @@ class SettingsBody extends StatelessWidget {
           ),
           SizedBox(height: 24.h),
           const AppCard(),
+          SizedBox(height: 16.h),
+          Center(
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                InkWell(
+                 
+                  child: CustomText(
+                    text: s.privacyPolicy,
+                    size: 14.sp,
+                    type: Type.overSmall,
+                    color: Colors.blue,
+                  ),
+                ),
+                SizedBox(width: 16.w),
+               
+              ],
+            ),
+          ),
           SizedBox(height: 20.h),
         ],
       ),

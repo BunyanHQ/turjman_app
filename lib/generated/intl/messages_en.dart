@@ -34,6 +34,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "appTitle": MessageLookupByLibrary.simpleMessage("Turjuman"),
     "arabic": MessageLookupByLibrary.simpleMessage("Arabic"),
+    "audioInputTag": MessageLookupByLibrary.simpleMessage("AUDIO INPUT"),
     "audioTitle": MessageLookupByLibrary.simpleMessage("Audio Translation"),
     "camera": MessageLookupByLibrary.simpleMessage("Camera"),
     "captureWithCamera": MessageLookupByLibrary.simpleMessage(
@@ -55,6 +56,16 @@ class MessageLookup extends MessageLookupByLibrary {
     "copySuccess": MessageLookupByLibrary.simpleMessage("Copied to clipboard"),
     "customerSupport": MessageLookupByLibrary.simpleMessage("Customer Support"),
     "dataAndStorage": MessageLookupByLibrary.simpleMessage("Data & Storage"),
+    "dataCollectionContent": MessageLookupByLibrary.simpleMessage(
+      "We collect the text, images, and audio you choose to translate, along with basic device information to improve app performance.",
+    ),
+    "dataCollectionQuote": MessageLookupByLibrary.simpleMessage(
+      "We never read or store your translations for any purpose other than providing the service to you.",
+    ),
+    "dataCollectionTitle": MessageLookupByLibrary.simpleMessage(
+      "Data We Collect",
+    ),
+    "dataSharingTag": MessageLookupByLibrary.simpleMessage("DATA SHARING"),
     "downloadFrowWifiOnlySubtitle": MessageLookupByLibrary.simpleMessage(
       "Download language packs only when connected to Wi-Fi to save data.",
     ),
@@ -138,7 +149,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Your speech is converted to text and translated in real time.",
     ),
     "faqVoiceAnswer3": MessageLookupByLibrary.simpleMessage(
-      "Voice translation reqسuires an active internet connection.",
+      "Voice translation requires an active internet connection.",
     ),
     "faqVoiceQuestion": MessageLookupByLibrary.simpleMessage(
       "How does voice translation work?",
@@ -171,13 +182,36 @@ class MessageLookup extends MessageLookupByLibrary {
     "languagesSubtitle": MessageLookupByLibrary.simpleMessage(
       "Select your preferred language for the app",
     ),
+    "lastUpdated": MessageLookupByLibrary.simpleMessage(
+      "Last updated: June 2024",
+    ),
+    "legalDocumentation": MessageLookupByLibrary.simpleMessage(
+      "LEGAL DOCUMENTATION",
+    ),
     "maybeLater": MessageLookupByLibrary.simpleMessage("Maybe Later"),
+    "microphoneAccessContent": MessageLookupByLibrary.simpleMessage(
+      "Microphone access is only used while you are actively recording a voice translation.",
+    ),
+    "microphoneAccessTitle": MessageLookupByLibrary.simpleMessage(
+      "Microphone Access",
+    ),
+    "microphoneBullet1": MessageLookupByLibrary.simpleMessage(
+      "Audio is processed in real time and not stored after translation.",
+    ),
+    "microphoneBullet2": MessageLookupByLibrary.simpleMessage(
+      "You can revoke microphone permission anytime from your device settings.",
+    ),
     "offlineLanguagesSubtitle": MessageLookupByLibrary.simpleMessage(
       "Manage your offline language packs",
     ),
     "offlineLanguagesTitle": MessageLookupByLibrary.simpleMessage(
       "Offline Languages",
     ),
+    "offlineModeTag": MessageLookupByLibrary.simpleMessage("OFFLINE MODE"),
+    "offlineUsageContent": MessageLookupByLibrary.simpleMessage(
+      "When you download a language pack, translations happen entirely on your device and are never sent to our servers.",
+    ),
+    "offlineUsageTitle": MessageLookupByLibrary.simpleMessage("Offline Usage"),
     "onBoardingButton1": MessageLookupByLibrary.simpleMessage(
       "Let\'s Get Started",
     ),
@@ -189,12 +223,23 @@ class MessageLookup extends MessageLookupByLibrary {
     "or": MessageLookupByLibrary.simpleMessage("OR"),
     "otherLanguages": MessageLookupByLibrary.simpleMessage("Other Languages"),
     "personalization": MessageLookupByLibrary.simpleMessage("Personalization"),
+    "privacyPolicy": MessageLookupByLibrary.simpleMessage("Privacy Policy"),
+    "privacyPolicyTitle": MessageLookupByLibrary.simpleMessage(
+      "Privacy Policy",
+    ),
+    "processingStorageTag": MessageLookupByLibrary.simpleMessage(
+      "PROCESSING & STORAGE",
+    ),
     "rateUs": MessageLookupByLibrary.simpleMessage("Rate Us"),
     "rateUsSubtitle": MessageLookupByLibrary.simpleMessage(
       "Your feedback helps us improve and reach more people like you.",
     ),
     "recentTranslations": MessageLookupByLibrary.simpleMessage(
       "Recent Translations",
+    ),
+    "secureByDesign": MessageLookupByLibrary.simpleMessage("Secure by Design"),
+    "secureByDesignSubtitle": MessageLookupByLibrary.simpleMessage(
+      "Your data is encrypted and never sold to third parties.",
     ),
     "selectAnImage": MessageLookupByLibrary.simpleMessage("Select an image"),
     "selectAnImageHint": MessageLookupByLibrary.simpleMessage(
@@ -230,6 +275,12 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "themeSystem": MessageLookupByLibrary.simpleMessage("System"),
     "themeTitle": MessageLookupByLibrary.simpleMessage("Theme"),
+    "thirdPartyContent": MessageLookupByLibrary.simpleMessage(
+      "We use trusted third-party services strictly for translation processing and app functionality. We do not sell your personal data.",
+    ),
+    "thirdPartyTitle": MessageLookupByLibrary.simpleMessage(
+      "Third-Party Services",
+    ),
     "translation": MessageLookupByLibrary.simpleMessage("Translation"),
     "translationText": MessageLookupByLibrary.simpleMessage("Translation Text"),
     "translationTitle": MessageLookupByLibrary.simpleMessage("Translation"),

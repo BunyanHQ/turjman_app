@@ -428,8 +428,92 @@
     "@faqVoiceAnswer2": {
         "description": "FAQ answer 2 about voice translation"
     },
-    "faqVoiceAnswer3":"Voice translation reqسuires an active internet connection.",
+    "faqVoiceAnswer3":"Voice translation requires an active internet connection.",
     "@faqVoiceAnswer3": {
         "description": "FAQ answer 3 about voice translation"
+    },
+    "privacyPolicy":"Privacy Policy",
+    "@privacyPolicy": {
+        "description": "The title for the privacy policy page"
+    },
+    "legalDocumentation":"LEGAL DOCUMENTATION",
+    "@legalDocumentation": {
+        "description": "The small tag label above the privacy policy title"
+    },
+    "privacyPolicyTitle":"Privacy Policy",
+    "@privacyPolicyTitle": {
+        "description": "The large title on the privacy policy page"
+    },
+    "lastUpdated":"Last updated: June 2024",
+    "@lastUpdated": {
+        "description": "The label showing when the privacy policy was last updated"
+    },
+    "secureByDesign":"Secure by Design",
+    "@secureByDesign": {
+        "description": "The title of the secure-by-design highlight card"
+    },
+    "secureByDesignSubtitle":"Your data is encrypted and never sold to third parties.",
+    "@secureByDesignSubtitle": {
+        "description": "The subtitle of the secure-by-design highlight card"
+    },
+    "processingStorageTag":"PROCESSING & STORAGE",
+    "@processingStorageTag": {
+        "description": "The tag label for the data collection section"
+    },
+    "dataCollectionTitle":"Data We Collect",
+    "@dataCollectionTitle": {
+        "description": "The title for the data collection section"
+    },
+    "dataCollectionContent":"We collect the text, images, and audio you choose to translate, along with basic device information to improve app performance.",
+    "@dataCollectionContent": {
+        "description": "The content for the data collection section"
+    },
+    "dataCollectionQuote":"We never read or store your translations for any purpose other than providing the service to you.",
+    "@dataCollectionQuote": {
+        "description": "The highlighted quote inside the data collection section"
+    },
+    "offlineModeTag":"OFFLINE MODE",
+    "@offlineModeTag": {
+        "description": "The tag label for the offline usage section"
+    },
+    "offlineUsageTitle":"Offline Usage",
+    "@offlineUsageTitle": {
+        "description": "The title for the offline usage section"
+    },
+    "offlineUsageContent":"When you download a language pack, translations happen entirely on your device and are never sent to our servers.",
+    "@offlineUsageContent": {
+        "description": "The content for the offline usage section"
+    },
+    "audioInputTag":"AUDIO INPUT",
+    "@audioInputTag": {
+        "description": "The tag label for the microphone access section"
+    },
+    "microphoneAccessTitle":"Microphone Access",
+    "@microphoneAccessTitle": {
+        "description": "The title for the microphone access section"
+    },
+    "microphoneAccessContent":"Microphone access is only used while you are actively recording a voice translation.",
+    "@microphoneAccessContent": {
+        "description": "The content for the microphone access section"
+    },
+    "microphoneBullet1":"Audio is processed in real time and not stored after translation.",
+    "@microphoneBullet1": {
+        "description": "First bullet point for the microphone access section"
+    },
+    "microphoneBullet2":"You can revoke microphone permission anytime from your device settings.",
+    "@microphoneBullet2": {
+        "description": "Second bullet point for the microphone access section"
+    },
+    "dataSharingTag":"DATA SHARING",
+    "@dataSharingTag": {
+        "description": "The tag label for the third-party section"
+    },
+    "thirdPartyTitle":"Third-Party Services",
+    "@thirdPartyTitle": {
+        "description": "The title for the third-party section"
+    },
+    "thirdPartyContent":"We use trusted third-party services strictly for translation processing and app functionality. We do not sell your personal data.",
+    "@thirdPartyContent": {
+        "description": "The content for the third-party section"
     }
 }
