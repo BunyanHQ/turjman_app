@@ -22,6 +22,18 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "acceptanceBullet1": MessageLookupByLibrary.simpleMessage(
+      "لازم تكوني 18 سنة على الأقل عشان تفتحي حساب.",
+    ),
+    "acceptanceBullet2": MessageLookupByLibrary.simpleMessage(
+      "الاتفاقية دي بتمثل عقد ملزم قانونيًا بينك وبين تُرجمان.",
+    ),
+    "acceptanceOfTermsContent": MessageLookupByLibrary.simpleMessage(
+      "باستخدامك أو دخولك لتُرجمان، إنتِ بتقري إنك قرأتي وفهمتي وموافقة على الالتزام بشروط الخدمة دي وسياسة الخصوصية بتاعتنا. لو مش موافقة على الشروط دي، لازم متستخدميش خدماتنا.",
+    ),
+    "acceptanceOfTermsTitle": MessageLookupByLibrary.simpleMessage(
+      "قبول الشروط",
+    ),
     "aduioSubtitle": MessageLookupByLibrary.simpleMessage(
       "تحدث للترجمة في الوقت الفعلي",
     ),
@@ -36,11 +48,23 @@ class MessageLookup extends MessageLookupByLibrary {
     "arabic": MessageLookupByLibrary.simpleMessage("العربية"),
     "audioInputTag": MessageLookupByLibrary.simpleMessage("الإدخال الصوتي"),
     "audioTitle": MessageLookupByLibrary.simpleMessage("الترجمة الصوتية"),
+    "automatedAccessDescription": MessageLookupByLibrary.simpleMessage(
+      "استخدام بوتات أو أدوات استخراج بيانات للوصول من غير إذن.",
+    ),
+    "automatedAccessTitle": MessageLookupByLibrary.simpleMessage(
+      "الوصول الآلي",
+    ),
     "camera": MessageLookupByLibrary.simpleMessage("كاميرا"),
     "captureWithCamera": MessageLookupByLibrary.simpleMessage(
       "التقاط بالكاميرا",
     ),
     "chooseFromGallery": MessageLookupByLibrary.simpleMessage("اختر من المعرض"),
+    "committedToTransparency": MessageLookupByLibrary.simpleMessage(
+      "ملتزمون بالشفافية",
+    ),
+    "committedToTransparencySubtitle": MessageLookupByLibrary.simpleMessage(
+      "شروطنا مصممة عشان تحمي المستخدمين والتقنية بتاعتنا. إحنا بنؤمن بالتواصل الواضح والمفتوح.",
+    ),
     "contactNumber": MessageLookupByLibrary.simpleMessage("رقم الهاتف"),
     "contactSupport": MessageLookupByLibrary.simpleMessage("تواصلي مع الدعم"),
     "contactUs": MessageLookupByLibrary.simpleMessage("تواصل معنا"),
@@ -163,6 +187,12 @@ class MessageLookup extends MessageLookupByLibrary {
     "howCanWeHelp": MessageLookupByLibrary.simpleMessage(
       "إزاي نقدر نساعدك النهاردة؟",
     ),
+    "illegalContentDescription": MessageLookupByLibrary.simpleMessage(
+      "ترجمة محتوى بيخالف القوانين الدولية.",
+    ),
+    "illegalContentTitle": MessageLookupByLibrary.simpleMessage(
+      "محتوى غير قانوني",
+    ),
     "image": MessageLookupByLibrary.simpleMessage("صورة"),
     "imageSubtitle": MessageLookupByLibrary.simpleMessage(
       "اختر صورة لاستخراج النص منها",
@@ -184,6 +214,15 @@ class MessageLookup extends MessageLookupByLibrary {
       "آخر تحديث: يونيو 2024",
     ),
     "legalDocumentation": MessageLookupByLibrary.simpleMessage("وثيقة قانونية"),
+    "licenseToUseContent": MessageLookupByLibrary.simpleMessage(
+      "إحنا بنمنحك ترخيص محدود وغير حصري وغير قابل للتحويل وقابل للإلغاء لاستخدام تُرجمان لأغراض الترجمة الشخصية غير التجارية.",
+    ),
+    "licenseToUseQuote": MessageLookupByLibrary.simpleMessage(
+      "تقنيتنا مصممة عشان تسد فجوات التواصل العالمي. ده بيضمن إن ملكيتنا الفكرية محترمة مع تقديم أدوات ترجمة عالية الجودة ليكِ.",
+    ),
+    "licenseToUseTitle": MessageLookupByLibrary.simpleMessage(
+      "ترخيص الاستخدام",
+    ),
     "maybeLater": MessageLookupByLibrary.simpleMessage("ربما لاحقًا"),
     "microphoneAccessContent": MessageLookupByLibrary.simpleMessage(
       "صلاحية الميكروفون بتتستخدم بس وانتِ بتسجلي ترجمة صوتية فعليًا.",
@@ -224,14 +263,29 @@ class MessageLookup extends MessageLookupByLibrary {
     "processingStorageTag": MessageLookupByLibrary.simpleMessage(
       "المعالجة والتخزين",
     ),
+    "prohibitedConductIntro": MessageLookupByLibrary.simpleMessage(
+      "ممنوع تمامًا على المستخدمين القيام بأي نشاط بيهدد سلامة أو أمان تُرجمان. الأفعال الممنوعة تشمل:",
+    ),
     "rateUs": MessageLookupByLibrary.simpleMessage("قيّمي التطبيق"),
     "rateUsSubtitle": MessageLookupByLibrary.simpleMessage(
       "رأيك بيساعدنا نتطور ونوصل لناس تانية زيك.",
     ),
     "recentTranslations": MessageLookupByLibrary.simpleMessage("اخر الترجمات"),
+    "reverseEngineeringDescription": MessageLookupByLibrary.simpleMessage(
+      "محاولة استخراج الكود المصدري أو الخوارزميات.",
+    ),
+    "reverseEngineeringTitle": MessageLookupByLibrary.simpleMessage(
+      "الهندسة العكسية",
+    ),
     "secureByDesign": MessageLookupByLibrary.simpleMessage("آمن بالتصميم"),
     "secureByDesignSubtitle": MessageLookupByLibrary.simpleMessage(
       "بياناتك مشفّرة ولا تُباع أبدًا لأي طرف ثالث.",
+    ),
+    "securityBreachesDescription": MessageLookupByLibrary.simpleMessage(
+      "تجاوز أي إجراءات بنستخدمها لمنع أو تقييد الوصول.",
+    ),
+    "securityBreachesTitle": MessageLookupByLibrary.simpleMessage(
+      "اختراق الأمان",
     ),
     "selectAnImage": MessageLookupByLibrary.simpleMessage("اختر صورة"),
     "selectAnImageHint": MessageLookupByLibrary.simpleMessage(
@@ -260,6 +314,19 @@ class MessageLookup extends MessageLookupByLibrary {
       " الصيغ المدعومة: JPG, PNG, GIF",
     ),
     "tellUsWhatYouThink": MessageLookupByLibrary.simpleMessage("قوليلنا رأيك"),
+    "termsLastUpdated": MessageLookupByLibrary.simpleMessage(
+      "آخر تحديث: أكتوبر 2023",
+    ),
+    "termsOfService": MessageLookupByLibrary.simpleMessage("شروط الخدمة"),
+    "termsOfServiceDescription": MessageLookupByLibrary.simpleMessage(
+      "من فضلك اقرأي الشروط دي بعناية. باستخدامك تُرجمان، إنتِ موافقة على الالتزام بالشروط دي اللي بتحكم علاقتنا بيكِ فيما يخص المنصة.",
+    ),
+    "termsOfServiceTitle": MessageLookupByLibrary.simpleMessage(
+      "الإطار القانوني لتُرجمان",
+    ),
+    "termsUpdatedTag": MessageLookupByLibrary.simpleMessage(
+      "تحديث: أكتوبر 2023",
+    ),
     "themeDark": MessageLookupByLibrary.simpleMessage("داكن"),
     "themeLight": MessageLookupByLibrary.simpleMessage("فاتح"),
     "themeSubtitle": MessageLookupByLibrary.simpleMessage(

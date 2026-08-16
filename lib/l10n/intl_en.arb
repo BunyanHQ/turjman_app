@@ -515,5 +515,97 @@
     "thirdPartyContent":"We use trusted third-party services strictly for translation processing and app functionality. We do not sell your personal data.",
     "@thirdPartyContent": {
         "description": "The content for the third-party section"
+    },
+    "termsOfService":"Terms of Service",
+    "@termsOfService": {
+        "description": "The title for the terms of service page"
+    },
+    "termsLastUpdated":"Last updated: October 2023",
+    "@termsLastUpdated": {
+        "description": "The subtitle showing when the terms were last updated"
+    },
+    "termsUpdatedTag":"UPDATED: OCTOBER 2023",
+    "@termsUpdatedTag": {
+        "description": "The small tag label above the terms of service title"
+    },
+    "termsOfServiceTitle":"Legal Framework for Turjuman",
+    "@termsOfServiceTitle": {
+        "description": "The large title on the terms of service page"
+    },
+    "termsOfServiceDescription":"Please read these terms carefully. By using Turjuman, you agree to be bound by these conditions which govern our relationship with you in relation to this platform.",
+    "@termsOfServiceDescription": {
+        "description": "The description shown below the terms of service title"
+    },
+    "acceptanceOfTermsTitle":"Acceptance of Terms",
+    "@acceptanceOfTermsTitle": {
+        "description": "The title for section 1 of the terms"
+    },
+    "acceptanceOfTermsContent":"By accessing or using Turjuman, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, you must not use our services.",
+    "@acceptanceOfTermsContent": {
+        "description": "The content for section 1 of the terms"
+    },
+    "acceptanceBullet1":"You must be at least 18 years of age to create an account.",
+    "@acceptanceBullet1": {
+        "description": "First checklist item for acceptance of terms"
+    },
+    "acceptanceBullet2":"The agreement constitutes a legally binding contract between you and Turjuman.",
+    "@acceptanceBullet2": {
+        "description": "Second checklist item for acceptance of terms"
+    },
+    "licenseToUseTitle":"License to Use",
+    "@licenseToUseTitle": {
+        "description": "The title for section 2 of the terms"
+    },
+    "licenseToUseContent":"We grant you a limited, non-exclusive, non-transferable, and revocable license to use Turjuman for personal, non-commercial translation purposes.",
+    "@licenseToUseContent": {
+        "description": "The content for section 2 of the terms"
+    },
+    "licenseToUseQuote":"Our technology is designed to bridge global communication gaps. This ensures that our intellectual property is respected while providing you with high-quality translation tools.",
+    "@licenseToUseQuote": {
+        "description": "The highlighted quote inside the license to use section"
+    },
+    "prohibitedConductIntro":"Users are strictly prohibited from engaging in activities that compromise the integrity or security of Turjuman. Prohibited actions include:",
+    "@prohibitedConductIntro": {
+        "description": "The intro text for section 3, prohibited conduct"
+    },
+    "reverseEngineeringTitle":"Reverse Engineering",
+    "@reverseEngineeringTitle": {
+        "description": "Title for the reverse engineering prohibited item"
+    },
+    "reverseEngineeringDescription":"Attempting to extract the source code or algorithms.",
+    "@reverseEngineeringDescription": {
+        "description": "Description for the reverse engineering prohibited item"
+    },
+    "securityBreachesTitle":"Security Breaches",
+    "@securityBreachesTitle": {
+        "description": "Title for the security breaches prohibited item"
+    },
+    "securityBreachesDescription":"Bypassing any measures we use to prevent or restrict access.",
+    "@securityBreachesDescription": {
+        "description": "Description for the security breaches prohibited item"
+    },
+    "automatedAccessTitle":"Automated Access",
+    "@automatedAccessTitle": {
+        "description": "Title for the automated access prohibited item"
+    },
+    "automatedAccessDescription":"Using bots or scrapers to access data without permission.",
+    "@automatedAccessDescription": {
+        "description": "Description for the automated access prohibited item"
+    },
+    "illegalContentTitle":"Illegal Content",
+    "@illegalContentTitle": {
+        "description": "Title for the illegal content prohibited item"
+    },
+    "illegalContentDescription":"Translating content that violates international laws.",
+    "@illegalContentDescription": {
+        "description": "Description for the illegal content prohibited item"
+    },
+    "committedToTransparency":"Committed to Transparency",
+    "@committedToTransparency": {
+        "description": "The title of the transparency highlight card"
+    },
+    "committedToTransparencySubtitle":"Our terms are designed to protect both our users and our technology. We believe in clear, open communication.",
+    "@committedToTransparencySubtitle": {
+        "description": "The subtitle of the transparency highlight card"
     }
 }

@@ -99,7 +99,12 @@ class SettingsBody extends StatelessWidget {
                   ),
                 ),
                 SizedBox(width: 16.w),
-               
+               CustomText(
+                  text: s.termsOfService,
+                  size: 14.sp,
+                  type: Type.overSmall,
+                  color: Colors.blue,
+                ),
               ],
             ),
           ),

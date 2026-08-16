@@ -1344,6 +1344,236 @@ class S {
       args: [],
     );
   }
+
+  /// `Terms of Service`
+  String get termsOfService {
+    return Intl.message(
+      'Terms of Service',
+      name: 'termsOfService',
+      desc: 'The title for the terms of service page',
+      args: [],
+    );
+  }
+
+  /// `Last updated: October 2023`
+  String get termsLastUpdated {
+    return Intl.message(
+      'Last updated: October 2023',
+      name: 'termsLastUpdated',
+      desc: 'The subtitle showing when the terms were last updated',
+      args: [],
+    );
+  }
+
+  /// `UPDATED: OCTOBER 2023`
+  String get termsUpdatedTag {
+    return Intl.message(
+      'UPDATED: OCTOBER 2023',
+      name: 'termsUpdatedTag',
+      desc: 'The small tag label above the terms of service title',
+      args: [],
+    );
+  }
+
+  /// `Legal Framework for Turjuman`
+  String get termsOfServiceTitle {
+    return Intl.message(
+      'Legal Framework for Turjuman',
+      name: 'termsOfServiceTitle',
+      desc: 'The large title on the terms of service page',
+      args: [],
+    );
+  }
+
+  /// `Please read these terms carefully. By using Turjuman, you agree to be bound by these conditions which govern our relationship with you in relation to this platform.`
+  String get termsOfServiceDescription {
+    return Intl.message(
+      'Please read these terms carefully. By using Turjuman, you agree to be bound by these conditions which govern our relationship with you in relation to this platform.',
+      name: 'termsOfServiceDescription',
+      desc: 'The description shown below the terms of service title',
+      args: [],
+    );
+  }
+
+  /// `Acceptance of Terms`
+  String get acceptanceOfTermsTitle {
+    return Intl.message(
+      'Acceptance of Terms',
+      name: 'acceptanceOfTermsTitle',
+      desc: 'The title for section 1 of the terms',
+      args: [],
+    );
+  }
+
+  /// `By accessing or using Turjuman, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, you must not use our services.`
+  String get acceptanceOfTermsContent {
+    return Intl.message(
+      'By accessing or using Turjuman, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, you must not use our services.',
+      name: 'acceptanceOfTermsContent',
+      desc: 'The content for section 1 of the terms',
+      args: [],
+    );
+  }
+
+  /// `You must be at least 18 years of age to create an account.`
+  String get acceptanceBullet1 {
+    return Intl.message(
+      'You must be at least 18 years of age to create an account.',
+      name: 'acceptanceBullet1',
+      desc: 'First checklist item for acceptance of terms',
+      args: [],
+    );
+  }
+
+  /// `The agreement constitutes a legally binding contract between you and Turjuman.`
+  String get acceptanceBullet2 {
+    return Intl.message(
+      'The agreement constitutes a legally binding contract between you and Turjuman.',
+      name: 'acceptanceBullet2',
+      desc: 'Second checklist item for acceptance of terms',
+      args: [],
+    );
+  }
+
+  /// `License to Use`
+  String get licenseToUseTitle {
+    return Intl.message(
+      'License to Use',
+      name: 'licenseToUseTitle',
+      desc: 'The title for section 2 of the terms',
+      args: [],
+    );
+  }
+
+  /// `We grant you a limited, non-exclusive, non-transferable, and revocable license to use Turjuman for personal, non-commercial translation purposes.`
+  String get licenseToUseContent {
+    return Intl.message(
+      'We grant you a limited, non-exclusive, non-transferable, and revocable license to use Turjuman for personal, non-commercial translation purposes.',
+      name: 'licenseToUseContent',
+      desc: 'The content for section 2 of the terms',
+      args: [],
+    );
+  }
+
+  /// `Our technology is designed to bridge global communication gaps. This ensures that our intellectual property is respected while providing you with high-quality translation tools.`
+  String get licenseToUseQuote {
+    return Intl.message(
+      'Our technology is designed to bridge global communication gaps. This ensures that our intellectual property is respected while providing you with high-quality translation tools.',
+      name: 'licenseToUseQuote',
+      desc: 'The highlighted quote inside the license to use section',
+      args: [],
+    );
+  }
+
+  /// `Users are strictly prohibited from engaging in activities that compromise the integrity or security of Turjuman. Prohibited actions include:`
+  String get prohibitedConductIntro {
+    return Intl.message(
+      'Users are strictly prohibited from engaging in activities that compromise the integrity or security of Turjuman. Prohibited actions include:',
+      name: 'prohibitedConductIntro',
+      desc: 'The intro text for section 3, prohibited conduct',
+      args: [],
+    );
+  }
+
+  /// `Reverse Engineering`
+  String get reverseEngineeringTitle {
+    return Intl.message(
+      'Reverse Engineering',
+      name: 'reverseEngineeringTitle',
+      desc: 'Title for the reverse engineering prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Attempting to extract the source code or algorithms.`
+  String get reverseEngineeringDescription {
+    return Intl.message(
+      'Attempting to extract the source code or algorithms.',
+      name: 'reverseEngineeringDescription',
+      desc: 'Description for the reverse engineering prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Security Breaches`
+  String get securityBreachesTitle {
+    return Intl.message(
+      'Security Breaches',
+      name: 'securityBreachesTitle',
+      desc: 'Title for the security breaches prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Bypassing any measures we use to prevent or restrict access.`
+  String get securityBreachesDescription {
+    return Intl.message(
+      'Bypassing any measures we use to prevent or restrict access.',
+      name: 'securityBreachesDescription',
+      desc: 'Description for the security breaches prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Automated Access`
+  String get automatedAccessTitle {
+    return Intl.message(
+      'Automated Access',
+      name: 'automatedAccessTitle',
+      desc: 'Title for the automated access prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Using bots or scrapers to access data without permission.`
+  String get automatedAccessDescription {
+    return Intl.message(
+      'Using bots or scrapers to access data without permission.',
+      name: 'automatedAccessDescription',
+      desc: 'Description for the automated access prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Illegal Content`
+  String get illegalContentTitle {
+    return Intl.message(
+      'Illegal Content',
+      name: 'illegalContentTitle',
+      desc: 'Title for the illegal content prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Translating content that violates international laws.`
+  String get illegalContentDescription {
+    return Intl.message(
+      'Translating content that violates international laws.',
+      name: 'illegalContentDescription',
+      desc: 'Description for the illegal content prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Committed to Transparency`
+  String get committedToTransparency {
+    return Intl.message(
+      'Committed to Transparency',
+      name: 'committedToTransparency',
+      desc: 'The title of the transparency highlight card',
+      args: [],
+    );
+  }
+
+  /// `Our terms are designed to protect both our users and our technology. We believe in clear, open communication.`
+  String get committedToTransparencySubtitle {
+    return Intl.message(
+      'Our terms are designed to protect both our users and our technology. We believe in clear, open communication.',
+      name: 'committedToTransparencySubtitle',
+      desc: 'The subtitle of the transparency highlight card',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

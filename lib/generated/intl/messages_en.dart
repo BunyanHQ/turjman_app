@@ -22,6 +22,18 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+    "acceptanceBullet1": MessageLookupByLibrary.simpleMessage(
+      "You must be at least 18 years of age to create an account.",
+    ),
+    "acceptanceBullet2": MessageLookupByLibrary.simpleMessage(
+      "The agreement constitutes a legally binding contract between you and Turjuman.",
+    ),
+    "acceptanceOfTermsContent": MessageLookupByLibrary.simpleMessage(
+      "By accessing or using Turjuman, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, you must not use our services.",
+    ),
+    "acceptanceOfTermsTitle": MessageLookupByLibrary.simpleMessage(
+      "Acceptance of Terms",
+    ),
     "aduioSubtitle": MessageLookupByLibrary.simpleMessage(
       "Speak to translate in real time",
     ),
@@ -36,12 +48,24 @@ class MessageLookup extends MessageLookupByLibrary {
     "arabic": MessageLookupByLibrary.simpleMessage("Arabic"),
     "audioInputTag": MessageLookupByLibrary.simpleMessage("AUDIO INPUT"),
     "audioTitle": MessageLookupByLibrary.simpleMessage("Audio Translation"),
+    "automatedAccessDescription": MessageLookupByLibrary.simpleMessage(
+      "Using bots or scrapers to access data without permission.",
+    ),
+    "automatedAccessTitle": MessageLookupByLibrary.simpleMessage(
+      "Automated Access",
+    ),
     "camera": MessageLookupByLibrary.simpleMessage("Camera"),
     "captureWithCamera": MessageLookupByLibrary.simpleMessage(
       "Capture with Camera",
     ),
     "chooseFromGallery": MessageLookupByLibrary.simpleMessage(
       "Choose from Gallery",
+    ),
+    "committedToTransparency": MessageLookupByLibrary.simpleMessage(
+      "Committed to Transparency",
+    ),
+    "committedToTransparencySubtitle": MessageLookupByLibrary.simpleMessage(
+      "Our terms are designed to protect both our users and our technology. We believe in clear, open communication.",
     ),
     "contactNumber": MessageLookupByLibrary.simpleMessage("Phone Number"),
     "contactSupport": MessageLookupByLibrary.simpleMessage("Contact Support"),
@@ -165,6 +189,12 @@ class MessageLookup extends MessageLookupByLibrary {
     "howCanWeHelp": MessageLookupByLibrary.simpleMessage(
       "How can we help you today?",
     ),
+    "illegalContentDescription": MessageLookupByLibrary.simpleMessage(
+      "Translating content that violates international laws.",
+    ),
+    "illegalContentTitle": MessageLookupByLibrary.simpleMessage(
+      "Illegal Content",
+    ),
     "image": MessageLookupByLibrary.simpleMessage("Image"),
     "imageSubtitle": MessageLookupByLibrary.simpleMessage(
       "Select an image to extract text from",
@@ -188,6 +218,13 @@ class MessageLookup extends MessageLookupByLibrary {
     "legalDocumentation": MessageLookupByLibrary.simpleMessage(
       "LEGAL DOCUMENTATION",
     ),
+    "licenseToUseContent": MessageLookupByLibrary.simpleMessage(
+      "We grant you a limited, non-exclusive, non-transferable, and revocable license to use Turjuman for personal, non-commercial translation purposes.",
+    ),
+    "licenseToUseQuote": MessageLookupByLibrary.simpleMessage(
+      "Our technology is designed to bridge global communication gaps. This ensures that our intellectual property is respected while providing you with high-quality translation tools.",
+    ),
+    "licenseToUseTitle": MessageLookupByLibrary.simpleMessage("License to Use"),
     "maybeLater": MessageLookupByLibrary.simpleMessage("Maybe Later"),
     "microphoneAccessContent": MessageLookupByLibrary.simpleMessage(
       "Microphone access is only used while you are actively recording a voice translation.",
@@ -230,6 +267,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "processingStorageTag": MessageLookupByLibrary.simpleMessage(
       "PROCESSING & STORAGE",
     ),
+    "prohibitedConductIntro": MessageLookupByLibrary.simpleMessage(
+      "Users are strictly prohibited from engaging in activities that compromise the integrity or security of Turjuman. Prohibited actions include:",
+    ),
     "rateUs": MessageLookupByLibrary.simpleMessage("Rate Us"),
     "rateUsSubtitle": MessageLookupByLibrary.simpleMessage(
       "Your feedback helps us improve and reach more people like you.",
@@ -237,9 +277,21 @@ class MessageLookup extends MessageLookupByLibrary {
     "recentTranslations": MessageLookupByLibrary.simpleMessage(
       "Recent Translations",
     ),
+    "reverseEngineeringDescription": MessageLookupByLibrary.simpleMessage(
+      "Attempting to extract the source code or algorithms.",
+    ),
+    "reverseEngineeringTitle": MessageLookupByLibrary.simpleMessage(
+      "Reverse Engineering",
+    ),
     "secureByDesign": MessageLookupByLibrary.simpleMessage("Secure by Design"),
     "secureByDesignSubtitle": MessageLookupByLibrary.simpleMessage(
       "Your data is encrypted and never sold to third parties.",
+    ),
+    "securityBreachesDescription": MessageLookupByLibrary.simpleMessage(
+      "Bypassing any measures we use to prevent or restrict access.",
+    ),
+    "securityBreachesTitle": MessageLookupByLibrary.simpleMessage(
+      "Security Breaches",
     ),
     "selectAnImage": MessageLookupByLibrary.simpleMessage("Select an image"),
     "selectAnImageHint": MessageLookupByLibrary.simpleMessage(
@@ -267,6 +319,19 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "tellUsWhatYouThink": MessageLookupByLibrary.simpleMessage(
       "TELL US WHAT YOU THINK",
+    ),
+    "termsLastUpdated": MessageLookupByLibrary.simpleMessage(
+      "Last updated: October 2023",
+    ),
+    "termsOfService": MessageLookupByLibrary.simpleMessage("Terms of Service"),
+    "termsOfServiceDescription": MessageLookupByLibrary.simpleMessage(
+      "Please read these terms carefully. By using Turjuman, you agree to be bound by these conditions which govern our relationship with you in relation to this platform.",
+    ),
+    "termsOfServiceTitle": MessageLookupByLibrary.simpleMessage(
+      "Legal Framework for Turjuman",
+    ),
+    "termsUpdatedTag": MessageLookupByLibrary.simpleMessage(
+      "UPDATED: OCTOBER 2023",
     ),
     "themeDark": MessageLookupByLibrary.simpleMessage("Dark"),
     "themeLight": MessageLookupByLibrary.simpleMessage("Light"),
