@@ -1,6 +1,7 @@
 import '../../../../../core/widgets/custom_text.dart';
 import '../../../../contact_us/presentations/pages/views/contact_us_view.dart';
 import '../../../../help_centre/views/help_center_view.dart';
+import '../../../../privacy_policy/presentations/views/privacy_policy_view.dart';
 import '../../../../rate_us/presentations/pages/views/rate_us_view.dart';
 import 'app_card.dart';
 import 'theme_item.dart';
@@ -86,7 +87,10 @@ class SettingsBody extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 InkWell(
-                 
+                  onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const PrivacyPolicyView()),
+                  ),
                   child: CustomText(
                     text: s.privacyPolicy,
                     size: 14.sp,
