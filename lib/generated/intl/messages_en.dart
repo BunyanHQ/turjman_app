@@ -213,7 +213,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Select your preferred language for the app",
     ),
     "lastUpdated": MessageLookupByLibrary.simpleMessage(
-      "Last updated: June 2024",
+      "Last updated: June 2026",
     ),
     "legalDocumentation": MessageLookupByLibrary.simpleMessage(
       "LEGAL DOCUMENTATION",
@@ -321,7 +321,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "TELL US WHAT YOU THINK",
     ),
     "termsLastUpdated": MessageLookupByLibrary.simpleMessage(
-      "Last updated: October 2023",
+      "Last updated: October 2026",
     ),
     "termsOfService": MessageLookupByLibrary.simpleMessage("Terms of Service"),
     "termsOfServiceDescription": MessageLookupByLibrary.simpleMessage(
@@ -331,7 +331,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Legal Framework for Turjuman",
     ),
     "termsUpdatedTag": MessageLookupByLibrary.simpleMessage(
-      "UPDATED: OCTOBER 2023",
+      "UPDATED: OCTOBER 2026",
     ),
     "themeDark": MessageLookupByLibrary.simpleMessage("Dark"),
     "themeLight": MessageLookupByLibrary.simpleMessage("Light"),

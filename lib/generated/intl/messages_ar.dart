@@ -211,7 +211,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "اختر لغتك المفضلة للتطبيق",
     ),
     "lastUpdated": MessageLookupByLibrary.simpleMessage(
-      "آخر تحديث: يونيو 2024",
+      "آخر تحديث: يونيو 2026",
     ),
     "legalDocumentation": MessageLookupByLibrary.simpleMessage("وثيقة قانونية"),
     "licenseToUseContent": MessageLookupByLibrary.simpleMessage(
@@ -315,7 +315,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "tellUsWhatYouThink": MessageLookupByLibrary.simpleMessage("قوليلنا رأيك"),
     "termsLastUpdated": MessageLookupByLibrary.simpleMessage(
-      "آخر تحديث: أكتوبر 2023",
+      "آخر تحديث: أكتوبر 2026",
     ),
     "termsOfService": MessageLookupByLibrary.simpleMessage("شروط الخدمة"),
     "termsOfServiceDescription": MessageLookupByLibrary.simpleMessage(
@@ -325,7 +325,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "الإطار القانوني لتُرجمان",
     ),
     "termsUpdatedTag": MessageLookupByLibrary.simpleMessage(
-      "تحديث: أكتوبر 2023",
+      "تحديث: أكتوبر 2026",
     ),
     "themeDark": MessageLookupByLibrary.simpleMessage("داكن"),
     "themeLight": MessageLookupByLibrary.simpleMessage("فاتح"),

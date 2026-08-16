@@ -444,7 +444,7 @@
     "@privacyPolicyTitle": {
         "description": "The large title on the privacy policy page"
     },
-    "lastUpdated":"Last updated: June 2024",
+    "lastUpdated":"Last updated: June 2026",
     "@lastUpdated": {
         "description": "The label showing when the privacy policy was last updated"
     },
@@ -520,11 +520,11 @@
     "@termsOfService": {
         "description": "The title for the terms of service page"
     },
-    "termsLastUpdated":"Last updated: October 2023",
+    "termsLastUpdated":"Last updated: October 2026",
     "@termsLastUpdated": {
         "description": "The subtitle showing when the terms were last updated"
     },
-    "termsUpdatedTag":"UPDATED: OCTOBER 2023",
+    "termsUpdatedTag":"UPDATED: OCTOBER 2026",
     "@termsUpdatedTag": {
         "description": "The small tag label above the terms of service title"
     },

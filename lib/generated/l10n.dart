@@ -1165,10 +1165,10 @@ class S {
     );
   }
 
-  /// `Last updated: June 2024`
+  /// `Last updated: June 2026`
   String get lastUpdated {
     return Intl.message(
-      'Last updated: June 2024',
+      'Last updated: June 2026',
       name: 'lastUpdated',
       desc: 'The label showing when the privacy policy was last updated',
       args: [],
@@ -1355,20 +1355,20 @@ class S {
     );
   }
 
-  /// `Last updated: October 2023`
+  /// `Last updated: October 2026`
   String get termsLastUpdated {
     return Intl.message(
-      'Last updated: October 2023',
+      'Last updated: October 2026',
       name: 'termsLastUpdated',
       desc: 'The subtitle showing when the terms were last updated',
       args: [],
     );
   }
 
-  /// `UPDATED: OCTOBER 2023`
+  /// `UPDATED: OCTOBER 2026`
   String get termsUpdatedTag {
     return Intl.message(
-      'UPDATED: OCTOBER 2023',
+      'UPDATED: OCTOBER 2026',
       name: 'termsUpdatedTag',
       desc: 'The small tag label above the terms of service title',
       args: [],
