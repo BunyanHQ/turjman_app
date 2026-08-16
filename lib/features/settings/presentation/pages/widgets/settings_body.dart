@@ -1,4 +1,5 @@
 import '../../../../contact_us/presentations/pages/views/contact_us_view.dart';
+import '../../../../help_centre/views/help_center_view.dart';
 import '../../../../rate_us/presentations/pages/views/rate_us_view.dart';
 import 'app_card.dart';
 import 'theme_item.dart';
@@ -74,7 +75,7 @@ class SettingsBody extends StatelessWidget {
             iconColor: Colors.teal,
             title: s.helpCenter,
             subtitle: s.howCanWeHelp,
-           // navigationPage: const HelpCenterPage(),
+            navigationPage: const HelpCenterView(),
           ),
           SizedBox(height: 24.h),
           const AppCard(),
