@@ -1,7 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-
 import 'intl/messages_all.dart';
 
 // **************************************************************************
@@ -60,7 +59,8 @@ class S {
     return Intl.message(
       'Copied to clipboard',
       name: 'copySuccess',
-      desc: 'The message displayed when text is successfully copied to the clipboard',
+      desc:
+          'The message displayed when text is successfully copied to the clipboard',
       args: [],
     );
   }
