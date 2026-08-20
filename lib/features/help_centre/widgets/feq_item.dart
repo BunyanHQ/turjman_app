@@ -50,8 +50,9 @@ class FaqItem extends StatelessWidget {
         ),
         title: CustomText(
           text: question,
-          size: 13.sp,
-          type: Type.overSmall,
+          size: 16.sp,
+          type: Type.overMedium,
+          maxLines: 2,
         ),
         iconColor: AppTheme.secondaryBlue,
         collapsedIconColor: AppTheme.secondaryBlue,
@@ -86,7 +87,7 @@ class FaqItem extends StatelessWidget {
                       Expanded(
                         child: CustomText(
                           text: answer,
-                          size: 12.sp,
+                          size: 14.sp,
                           type: Type.overSmall,
                           maxLines: 3,
                         ),

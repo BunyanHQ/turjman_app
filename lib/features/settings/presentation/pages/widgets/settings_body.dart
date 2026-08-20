@@ -103,7 +103,7 @@ class SettingsBody extends StatelessWidget {
                   child: CustomText(
                     text: s.privacyPolicy,
                     size: 14.sp,
-                    type: Type.overSmall,
+                    type: Type.overMedium,
                     color: Colors.blue,
                   ),
                 ),
@@ -116,7 +116,7 @@ class SettingsBody extends StatelessWidget {
                   child: CustomText(
                     text: s.termsOfService,
                     size: 14.sp,
-                    type: Type.overSmall,
+                    type: Type.overMedium,
                     color: Colors.blue,
                     maxLines: 3,
                   ),
