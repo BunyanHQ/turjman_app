@@ -2,7 +2,7 @@ import '../../../../../core/widgets/custom_text.dart';
 import '../../../../contact_us/presentations/pages/views/contact_us_view.dart';
 import '../../../../help_centre/views/help_center_view.dart';
 import '../../../../privacy_policy/presentations/views/privacy_policy_view.dart';
-import '../../../../rate_us/presentations/pages/views/rate_us_view.dart';
+import '../../../../rate_us/presentations/pages/widgets/rate_us_body.dart';
 import '../../../../term_of_service/views/term_of_service_view.dart';
 import 'app_card.dart';
 import 'theme_item.dart';
@@ -71,7 +71,15 @@ class SettingsBody extends StatelessWidget {
             iconColor: Colors.yellow,
             title: s.rateUs,
             subtitle: s.rateUsSubtitle,
-            navigationPage: const RateUsView(),
+            onCustomTap: () => showModalBottomSheet(
+              context: context,
+              isScrollControlled: true,
+              backgroundColor: Colors.transparent,
+              builder: (context) => const Padding(
+                padding: EdgeInsets.only(top: 40),
+                child: RateUsBody(),
+              ),
+            ),
           ),
           SettingsItem(
             icon: IconBroken.Info_Circle,
@@ -100,19 +108,19 @@ class SettingsBody extends StatelessWidget {
                   ),
                 ),
                 SizedBox(width: 16.w),
-               InkWell(
+                InkWell(
                   onTap: () => Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => const TermsOfServiceView()),
                   ),
-                 child: CustomText(
+                  child: CustomText(
                     text: s.termsOfService,
                     size: 14.sp,
                     type: Type.overSmall,
                     color: Colors.blue,
                     maxLines: 3,
                   ),
-               ),
+                ),
               ],
             ),
           ),

@@ -11,6 +11,7 @@ class SettingsItem extends StatelessWidget {
   final String title;
   final String subtitle;
   final Widget? navigationPage;
+  final VoidCallback? onCustomTap;
   final bool isSwitch;
   final bool switchValue;
   final ValueChanged<bool>? onSwitchChanged;
@@ -21,6 +22,7 @@ class SettingsItem extends StatelessWidget {
     required this.title,
     required this.subtitle,
     this.navigationPage,
+    this.onCustomTap,
     this.isSwitch = false,
     this.switchValue = false,
     this.onSwitchChanged,
@@ -29,9 +31,15 @@ class SettingsItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      onTap: () => isSwitch
-          ? onSwitchChanged?.call(!switchValue)
-          : NavTo.push(context: context, nextPage: navigationPage!),
+      onTap: () {
+        if (isSwitch) {
+          onSwitchChanged?.call(!switchValue);
+        } else if (onCustomTap != null) {
+          onCustomTap!();
+        } else {
+          NavTo.push(context: context, nextPage: navigationPage!);
+        }
+      },
       minTileHeight: 50.h,
       contentPadding: _getPadding(),
       tileColor: Theme.of(context).cardColor,
