@@ -1,22 +1,13 @@
 {
     "@@locale": "en",
-
-
-
     "copySuccess":"Copied to clipboard",
     "@copySuccess": {
         "description": "The message displayed when text is successfully copied to the clipboard"
     },
-
-
-
     "appTitle":"Turjuman",
     "@appTitle": {
         "description": "The application title"
     },
-
-
-
     "onBoardingButton1":"Let's Get Started",
     "@onBoardingButton1": {
         "description": "The title of the first onboarding button"
@@ -33,9 +24,6 @@
     "@onBoardingButton4": {
         "description": "The title of the fourth onboarding button"
     },
-
-
-
     "homeTitle":"Turjuman",
     "@homeTitle": {
         "description": "The title of the home page"
@@ -76,9 +64,6 @@
     "@viewAll": {
         "description": "The view all label"
     },
-
-
-
     "translations":"Translations",
     "@translations": {
         "description": "The translations label"
@@ -95,9 +80,6 @@
     "@translationTitle": {
         "description": "The title for the translation"
     },
-
-
-
     "audioTitle":"Audio Translation",
     "@audioTitle": {
         "description": "The title for the audio translation feature"
@@ -114,9 +96,6 @@
     "@translationText": {
         "description": "The title for the translation text field"
     },
-
-
-
     "imageTitle":"Image to Text",
     "@imageTitle": {
         "description": "The title for the image"
@@ -149,9 +128,6 @@
     "@supportedFormats": {
         "description": "The label for supported image formats"
     },
-
-
-
     "settingsTitle":"Settings",
     "@settingsTitle": {
         "description": "The title for the settings page"
@@ -168,9 +144,10 @@
     "@dataAndStorage": {
         "description": "The label for data and storage section"
     },
-
-
-
+    "support":"Support",
+    "@support": {
+        "description": "The label for support section"
+    },
     "themeTitle":"Theme",
     "@themeTitle": {
         "description": "The title for the theme"
@@ -191,9 +168,6 @@
     "@themeSystem": {
         "description": "The label for the system default theme"
     },
-
-
-
     "languageTitle":"Language",
     "@languageTitle": {
         "description": "The title for the language"
@@ -230,9 +204,6 @@
     "@languageItemSubtitle": {
         "description": "The subtitle for the language item"
     },
-
-
-
     "offlineLanguagesTitle":"Offline Languages",
     "@offlineLanguagesTitle": {
         "description": "The title for the offline languages"
@@ -249,9 +220,6 @@
     "@otherLanguages": {
         "description": "The label for other languages"
     },
-
-
-
     "downloadFrowWifiOnlyTitle":"Download from Wi-Fi Only",
     "@downloadFrowWifiOnlyTitle": {
         "description": "The title for downloading from Wi-Fi"
@@ -260,9 +228,6 @@
     "@downloadFrowWifiOnlySubtitle": {
         "description": "The subtitle for downloading from Wi-Fi"
     },
-
-
-
     "appCardSubtitle":"Translate everything. Connect everyone.",
     "@appCardSubtitle": {
         "description": "The subtitle for the app card"
@@ -274,6 +239,373 @@
     "update":"Update",
     "@update": {
         "description": "The label for the update button"
+    },
+    "contactUsTitle":"Contact Us",
+    "@contactUsTitle": {
+        "description": "The title for the contact us section"
+    },
+    "contactUsSubtitle":"Get in touch with our support team",
+    "@contactUsSubtitle": {
+        "description": "The subtitle for the contact us section"
+    },
+    "contactUs":"Contact Us",
+    "@contactUs": {
+        "description": "The title for the contact us page"
+    },
+    "contactUsDescription":"We're here to help. Reach out to us through any of the channels below and our team will get back to you as soon as possible.",
+    "@contactUsDescription": {
+        "description": "The description shown at the top of the contact us page"
+    },
+    "customerSupport":"Customer Support",
+    "@customerSupport": {
+        "description": "The label for the customer support section"
+    },
+    "contactNumber":"Phone Number",
+    "@contactNumber": {
+        "description": "The label for the phone/WhatsApp number field"
+    },
+    "emailAddress":"Email Address",
+    "@emailAddress": {
+        "description": "The label for the email address field"
+    },
+    "socialMedia":"Social Media",
+    "@socialMedia": {
+        "description": "The label for the social media section"
+    },
+    "instagram":"Instagram",
+    "@instagram": {
+        "description": "The label for the Instagram link"
+    },
+    "twitter":"Twitter",
+    "@twitter": {
+        "description": "The label for the Twitter link"
+    },
+    "facebook":"Facebook",
+    "@facebook": {
+        "description": "The label for the Facebook link"
+    },
+    "rateUs":"Rate Us",
+    "@rateUs": {
+        "description": "The title for the rate us page"
+    },
+    "rateUsSubtitle":"Your feedback helps us improve and reach more people like you.",
+    "@rateUsSubtitle": {
+        "description": "The subtitle for the rate us page"
+    },
+    "enjoyingApp":"Enjoying Turjuman?",
+    "@enjoyingApp": {
+        "description": "The header text asking the user if they enjoy the app"
+    },
+    "tellUsWhatYouThink":"TELL US WHAT YOU THINK",
+    "@tellUsWhatYouThink": {
+        "description": "The label above the feedback text field"
+    },
+    "yourThoughtsMakeUsBetter":"Your thoughts make us better...",
+    "@yourThoughtsMakeUsBetter": {
+        "description": "The hint text inside the feedback text field"
+    },
+    "submit":"Submit",
+    "@submit": {
+        "description": "The label for the submit button"
+    },
+    "maybeLater":"Maybe Later",
+    "@maybeLater": {
+        "description": "The label for the dismiss/skip button"
+    },
+    "helpCenter":"Help Center",
+    "@helpCenter": {
+        "description": "The title for the help center page"
+    },
+    "howCanWeHelp":"How can we help you today?",
+    "@howCanWeHelp": {
+        "description": "The header text on the help center page"
+    },
+    "stillNeedHelp":"Still need help?",
+    "@stillNeedHelp": {
+        "description": "The title of the contact support banner"
+    },
+    "stillNeedHelpSubtitle":"Our support team is ready to answer your questions.",
+    "@stillNeedHelpSubtitle": {
+        "description": "The subtitle of the contact support banner"
+    },
+    "contactSupport":"Contact Support",
+    "@contactSupport": {
+        "description": "The label for the contact support button"
+    },
+    "frequentlyAsked":"Frequently Asked Questions",
+    "@frequentlyAsked": {
+        "description": "The title above the FAQ list"
+    },
+    "faqOfflineModeQuestion":"Can I use the app without internet?",
+    "@faqOfflineModeQuestion": {
+        "description": "FAQ question about offline mode"
+    },
+    "faqOfflineModeAnswer1":"Yes, once you download a language pack you can translate offline.",
+    "@faqOfflineModeAnswer1": {
+        "description": "FAQ answer 1 about offline mode"
+    },
+    "faqOfflineModeAnswer2":"Go to Settings > Offline Languages to manage your downloads.",
+    "@faqOfflineModeAnswer2": {
+        "description": "FAQ answer 2 about offline mode"
+    },
+    "faqOfflineModeAnswer3":"Voice and image translation may still require an internet connection.",
+    "@faqOfflineModeAnswer3": {
+        "description": "FAQ answer 3 about offline mode"
+    },
+    "faqTranslateImagesQuestion":"How do I translate text from an image?",
+    "@faqTranslateImagesQuestion": {
+        "description": "FAQ question about translating images"
+    },
+    "faqTranslateImagesAnswer1":"Open the Image tab and choose a photo from your gallery.",
+    "@faqTranslateImagesAnswer1": {
+        "description": "FAQ answer 1 about translating images"
+    },
+    "faqTranslateImagesAnswer2":"You can also capture a new photo directly with your camera.",
+    "@faqTranslateImagesAnswer2": {
+        "description": "FAQ answer 2 about translating images"
+    },
+    "faqTranslateImagesAnswer3":"Supported formats are JPG, PNG, and GIF.",
+    "@faqTranslateImagesAnswer3": {
+        "description": "FAQ answer 3 about translating images"
+    },
+    "faqSyncingQuestion":"Does my translation history sync across devices?",
+    "@faqSyncingQuestion": {
+        "description": "FAQ question about syncing"
+    },
+    "faqSyncingAnswer1":"Translation history is currently stored locally on your device.",
+    "@faqSyncingAnswer1": {
+        "description": "FAQ answer 1 about syncing"
+    },
+    "faqSyncingAnswer2":"Cross-device sync is planned for a future update.",
+    "@faqSyncingAnswer2": {
+        "description": "FAQ answer 2 about syncing"
+    },
+    "faqSyncingAnswer3":"Make sure to back up important translations manually for now.",
+    "@faqSyncingAnswer3": {
+        "description": "FAQ answer 3 about syncing"
+    },
+    "faqPremiumQuestion":"What do I get with premium?",
+    "@faqPremiumQuestion": {
+        "description": "FAQ question about premium"
+    },
+    "faqPremiumAnswer1":"Unlimited offline language packs.",
+    "@faqPremiumAnswer1": {
+        "description": "FAQ answer 1 about premium"
+    },
+    "faqPremiumAnswer2":"Priority translation speed with no ads.",
+    "@faqPremiumAnswer2": {
+        "description": "FAQ answer 2 about premium"
+    },
+    "faqPremiumAnswer3":"Early access to new features.",
+    "@faqPremiumAnswer3": {
+        "description": "FAQ answer 3 about premium"
+    },
+    "faqLanguagesQuestion":"How many languages are supported?",
+    "@faqLanguagesQuestion": {
+        "description": "FAQ question about supported languages"
+    },
+    "faqLanguagesAnswer1":"Turjuman supports dozens of languages for text translation.",
+    "@faqLanguagesAnswer1": {
+        "description": "FAQ answer 1 about supported languages"
+    },
+    "faqLanguagesAnswer2":"New languages are added regularly based on user requests.",
+    "@faqLanguagesAnswer2": {
+        "description": "FAQ answer 2 about supported languages"
+    },
+    "faqLanguagesAnswer3":"Check the Languages section in Settings for the full list.",
+    "@faqLanguagesAnswer3": {
+        "description": "FAQ answer 3 about supported languages"
+    },
+    "faqVoiceQuestion":"How does voice translation work?",
+    "@faqVoiceQuestion": {
+        "description": "FAQ question about voice translation"
+    },
+    "faqVoiceAnswer1":"Tap the microphone icon and speak clearly into your device.",
+    "@faqVoiceAnswer1": {
+        "description": "FAQ answer 1 about voice translation"
+    },
+    "faqVoiceAnswer2":"Your speech is converted to text and translated in real time.",
+    "@faqVoiceAnswer2": {
+        "description": "FAQ answer 2 about voice translation"
+    },
+    "faqVoiceAnswer3":"Voice translation requires an active internet connection.",
+    "@faqVoiceAnswer3": {
+        "description": "FAQ answer 3 about voice translation"
+    },
+    "privacyPolicy":"Privacy Policy",
+    "@privacyPolicy": {
+        "description": "The title for the privacy policy page"
+    },
+    "legalDocumentation":"LEGAL DOCUMENTATION",
+    "@legalDocumentation": {
+        "description": "The small tag label above the privacy policy title"
+    },
+    "privacyPolicyTitle":"Privacy Policy",
+    "@privacyPolicyTitle": {
+        "description": "The large title on the privacy policy page"
+    },
+    "lastUpdated":"Last updated: June 2026",
+    "@lastUpdated": {
+        "description": "The label showing when the privacy policy was last updated"
+    },
+    "secureByDesign":"Secure by Design",
+    "@secureByDesign": {
+        "description": "The title of the secure-by-design highlight card"
+    },
+    "secureByDesignSubtitle":"Your data is encrypted and never sold to third parties.",
+    "@secureByDesignSubtitle": {
+        "description": "The subtitle of the secure-by-design highlight card"
+    },
+    "processingStorageTag":"PROCESSING & STORAGE",
+    "@processingStorageTag": {
+        "description": "The tag label for the data collection section"
+    },
+    "dataCollectionTitle":"Data We Collect",
+    "@dataCollectionTitle": {
+        "description": "The title for the data collection section"
+    },
+    "dataCollectionContent":"We collect the text, images, and audio you choose to translate, along with basic device information to improve app performance.",
+    "@dataCollectionContent": {
+        "description": "The content for the data collection section"
+    },
+    "dataCollectionQuote":"We never read or store your translations for any purpose other than providing the service to you.",
+    "@dataCollectionQuote": {
+        "description": "The highlighted quote inside the data collection section"
+    },
+    "offlineModeTag":"OFFLINE MODE",
+    "@offlineModeTag": {
+        "description": "The tag label for the offline usage section"
+    },
+    "offlineUsageTitle":"Offline Usage",
+    "@offlineUsageTitle": {
+        "description": "The title for the offline usage section"
+    },
+    "offlineUsageContent":"When you download a language pack, translations happen entirely on your device and are never sent to our servers.",
+    "@offlineUsageContent": {
+        "description": "The content for the offline usage section"
+    },
+    "audioInputTag":"AUDIO INPUT",
+    "@audioInputTag": {
+        "description": "The tag label for the microphone access section"
+    },
+    "microphoneAccessTitle":"Microphone Access",
+    "@microphoneAccessTitle": {
+        "description": "The title for the microphone access section"
+    },
+    "microphoneAccessContent":"Microphone access is only used while you are actively recording a voice translation.",
+    "@microphoneAccessContent": {
+        "description": "The content for the microphone access section"
+    },
+    "microphoneBullet1":"Audio is processed in real time and not stored after translation.",
+    "@microphoneBullet1": {
+        "description": "First bullet point for the microphone access section"
+    },
+    "microphoneBullet2":"You can revoke microphone permission anytime from your device settings.",
+    "@microphoneBullet2": {
+        "description": "Second bullet point for the microphone access section"
+    },
+    "dataSharingTag":"DATA SHARING",
+    "@dataSharingTag": {
+        "description": "The tag label for the third-party section"
+    },
+    "thirdPartyTitle":"Third-Party Services",
+    "@thirdPartyTitle": {
+        "description": "The title for the third-party section"
+    },
+    "thirdPartyContent":"We use trusted third-party services strictly for translation processing and app functionality. We do not sell your personal data.",
+    "@thirdPartyContent": {
+        "description": "The content for the third-party section"
+    },
+    "termsOfService":"Terms of Service",
+    "@termsOfService": {
+        "description": "The title for the terms of service page"
+    },
+    "termsLastUpdated":"Last updated: October 2026",
+    "@termsLastUpdated": {
+        "description": "The subtitle showing when the terms were last updated"
+    },
+    "termsUpdatedTag":"UPDATED: OCTOBER 2026",
+    "@termsUpdatedTag": {
+        "description": "The small tag label above the terms of service title"
+    },
+    "termsOfServiceTitle":"Legal Framework for Turjuman",
+    "@termsOfServiceTitle": {
+        "description": "The large title on the terms of service page"
+    },
+    "termsOfServiceDescription":"Please read these terms carefully. By using Turjuman, you agree to be bound by these conditions which govern our relationship with you in relation to this platform.",
+    "@termsOfServiceDescription": {
+        "description": "The description shown below the terms of service title"
+    },
+    "acceptanceOfTermsTitle":"Acceptance of Terms",
+    "@acceptanceOfTermsTitle": {
+        "description": "The title for section 1 of the terms"
+    },
+    "acceptanceOfTermsContent":"By accessing or using Turjuman, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, you must not use our services.",
+    "@acceptanceOfTermsContent": {
+        "description": "The content for section 1 of the terms"
+    },
+    "acceptanceBullet1":"You must be at least 18 years of age to create an account.",
+    "@acceptanceBullet1": {
+        "description": "First checklist item for acceptance of terms"
+    },
+    "acceptanceBullet2":"The agreement constitutes a legally binding contract between you and Turjuman.",
+    "@acceptanceBullet2": {
+        "description": "Second checklist item for acceptance of terms"
+    },
+    "licenseToUseTitle":"License to Use",
+    "@licenseToUseTitle": {
+        "description": "The title for section 2 of the terms"
+    },
+    "licenseToUseContent":"We grant you a limited, non-exclusive, non-transferable, and revocable license to use Turjuman for personal, non-commercial translation purposes.",
+    "@licenseToUseContent": {
+        "description": "The content for section 2 of the terms"
+    },
+    "licenseToUseQuote":"Our technology is designed to bridge global communication gaps. This ensures that our intellectual property is respected while providing you with high-quality translation tools.",
+    "@licenseToUseQuote": {
+        "description": "The highlighted quote inside the license to use section"
+    },
+    "prohibitedConductIntro":"Users are strictly prohibited from engaging in activities that compromise the integrity or security of Turjuman. Prohibited actions include:",
+    "@prohibitedConductIntro": {
+        "description": "The intro text for section 3, prohibited conduct"
+    },
+    "reverseEngineeringTitle":"Reverse Engineering",
+    "@reverseEngineeringTitle": {
+        "description": "Title for the reverse engineering prohibited item"
+    },
+    "reverseEngineeringDescription":"Attempting to extract the source code or algorithms.",
+    "@reverseEngineeringDescription": {
+        "description": "Description for the reverse engineering prohibited item"
+    },
+    "securityBreachesTitle":"Security Breaches",
+    "@securityBreachesTitle": {
+        "description": "Title for the security breaches prohibited item"
+    },
+    "securityBreachesDescription":"Bypassing any measures we use to prevent or restrict access.",
+    "@securityBreachesDescription": {
+        "description": "Description for the security breaches prohibited item"
+    },
+    "automatedAccessTitle":"Automated Access",
+    "@automatedAccessTitle": {
+        "description": "Title for the automated access prohibited item"
+    },
+    "automatedAccessDescription":"Using bots or scrapers to access data without permission.",
+    "@automatedAccessDescription": {
+        "description": "Description for the automated access prohibited item"
+    },
+    "illegalContentTitle":"Illegal Content",
+    "@illegalContentTitle": {
+        "description": "Title for the illegal content prohibited item"
+    },
+    "illegalContentDescription":"Translating content that violates international laws.",
+    "@illegalContentDescription": {
+        "description": "Description for the illegal content prohibited item"
+    },
+    "committedToTransparency":"Committed to Transparency",
+    "@committedToTransparency": {
+        "description": "The title of the transparency highlight card"
+    },
+    "committedToTransparencySubtitle":"Our terms are designed to protect both our users and our technology. We believe in clear, open communication.",
+    "@committedToTransparencySubtitle": {
+        "description": "The subtitle of the transparency highlight card"
     }
-
 }

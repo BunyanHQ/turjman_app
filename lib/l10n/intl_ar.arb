@@ -1,22 +1,13 @@
 {
     "@@locale": "ar",
-
-
-
     "copySuccess":"تم النسخ إلى الحافظة",
     "@copySuccess": {
         "description": "الرسالة المعروضة عند نسخ النص إلى الحافظة"
     },
-
-
-
     "appTitle":"تُرجمان",
     "@appTitle": {
         "description": "The application title"
     },
-
-
-
     "onBoardingButton1":"ابدأ",
     "@onBoardingButton1": {
         "description": "عنوان الزر الأول في شاشة الإعداد"
@@ -33,9 +24,6 @@
     "@onBoardingButton4": {
         "description": "عنوان الزر الرابع في شاشة الإعداد"
     },
-
-
-
     "homeTitle":"تُرجمان",
     "@homeTitle": {
         "description": "عنوان الصفحة الرئيسية"
@@ -76,9 +64,6 @@
     "@viewAll": {
         "description": "نص التسمية لعرض الكل"
     },
-
-
-
     "translations":"الترجمات",
     "@translations": {
         "description": "نص التسمية للترجمات"
@@ -95,9 +80,6 @@
     "@translationTitle": {
         "description": "نص التسمية لعنوان الترجمة"
     },
-
-
-
     "audioTitle":"الترجمة الصوتية",
     "@audioTitle": {
         "description": "نص التسمية لعنوان الترجمة الصوتية"
@@ -114,9 +96,6 @@
     "@translationText": {
         "description": "نص التسمية لعنوان نص الترجمة"
     },
-
-
-
     "imageTitle":"صورة إلى نص",
     "@imageTitle": {
         "description": "نص التسمية لعنوان الصورة"
@@ -149,9 +128,6 @@
     "@supportedFormats": {
         "description": "نص التسمية للصيغ المدعومة للصور"
     },
-
-
-
     "settingsTitle":"الإعدادات",
     "@settingsTitle": {
         "description": "نص التسمية لعنوان الإعدادات"
@@ -168,9 +144,10 @@
     "@dataAndStorage": {
         "description": "نص التسمية لقسم البيانات والتخزين"
     },
-
-
-
+    "support":"الدعم",
+    "@support": {
+        "description": "نص التسمية لقسم الدعم"
+    },
     "themeTitle":"المظهر",
     "@themeTitle": {
         "description": "نص التسمية لعنوان المظهر"
@@ -191,9 +168,6 @@
     "@themeSystem": {
         "description": "نص التسمية للوضع الافتراضي للنظام"
     },
-
-
-
     "languageTitle":"اللغة",
     "@languageTitle": {
         "description": "نص التسمية لعنوان اللغة"
@@ -230,9 +204,6 @@
     "@languageItemSubtitle": {
         "description": "نص التسمية للعنوان الفرعي للغة"
     },
-
-
-
     "offlineLanguagesTitle":"اللغات غير المتصلة بالإنترنت",
     "@offlineLanguagesTitle": {
         "description": "نص التسمية لعنوان اللغات غير المتصلة بالإنترنت"
@@ -249,9 +220,6 @@
     "@otherLanguages": {
         "description": "نص التسمية للغات أخرى"
     },
-
-
-
     "downloadFrowWifiOnlyTitle":"تنزيل من الواي فاي فقط",
     "@downloadFrowWifiOnlyTitle": {
         "description": "نص التسمية لعنوان تنزيل من الواي فاي فقط"
@@ -260,9 +228,6 @@
     "@downloadFrowWifiOnlySubtitle": {
         "description": "نص التسمية للعنوان الفرعي للتنزيل من الواي فاي فقط"
     },
-
-
-
     "appCardSubtitle":"ترجم كل شيء. اربط الجميع.",
     "@appCardSubtitle": {
         "description": "نص التسمية للعنوان الفرعي لبطاقة التطبيق"
@@ -274,5 +239,97 @@
     "update":"تحديث",
     "@update": {
         "description": "نص التسمية لزر التحديث"
-    }
+    },
+    "contactUsTitle":"تواصل معنا",
+    "contactUsSubtitle":"تواصلي مع فريق الدعم الخاص بنا",
+    "contactUs":"تواصل معنا",
+    "contactUsDescription":"نحن هنا لمساعدتك. تواصلي معنا من خلال أي من القنوات أدناه وسيقوم فريقنا بالرد عليكِ في أقرب وقت ممكن.",
+    "customerSupport":"دعم العملاء",
+    "contactNumber":"رقم الهاتف",
+    "emailAddress":"البريد الإلكتروني",
+    "socialMedia":"وسائل التواصل الاجتماعي",
+    "instagram":"إنستغرام",
+    "twitter":"تويتر",
+    "facebook":"فيسبوك",
+    "rateUs":"قيّمي التطبيق",
+    "rateUsSubtitle":"رأيك بيساعدنا نتطور ونوصل لناس تانية زيك.",
+    "enjoyingApp":"مستمتعة بتطبيق تُرجمان؟",
+    "tellUsWhatYouThink":"قوليلنا رأيك",
+    "yourThoughtsMakeUsBetter":"رأيك بيخلينا أحسن...",
+    "submit":"إرسال",
+    "maybeLater":"ربما لاحقًا",
+    "helpCenter":"مركز المساعدة",
+    "howCanWeHelp":"إزاي نقدر نساعدك النهاردة؟",
+    "stillNeedHelp":"لسه محتاجة مساعدة؟",
+    "stillNeedHelpSubtitle":"فريق الدعم بتاعنا جاهز يرد على أسئلتك.",
+    "contactSupport":"تواصلي مع الدعم",
+    "frequentlyAsked":"الأسئلة الشائعة",
+    "faqOfflineModeQuestion":"أقدر استخدم التطبيق من غير إنترنت؟",
+    "faqOfflineModeAnswer1":"أيوة، بمجرد ما تنزلي حزمة لغة تقدري تترجمي من غير إنترنت.",
+    "faqOfflineModeAnswer2":"روحي على الإعدادات > اللغات غير المتصلة عشان تديري التنزيلات.",
+    "faqOfflineModeAnswer3":"الترجمة الصوتية والصور ممكن تحتاج اتصال بالإنترنت.",
+    "faqTranslateImagesQuestion":"إزاي أترجم نص من صورة؟",
+    "faqTranslateImagesAnswer1":"افتحي تبويب الصورة واختاري صورة من المعرض.",
+    "faqTranslateImagesAnswer2":"تقدري كمان تلتقطي صورة جديدة بالكاميرا مباشرة.",
+    "faqTranslateImagesAnswer3":"الصيغ المدعومة هي JPG وPNG وGIF.",
+    "faqSyncingQuestion":"سجل الترجمات بيتزامن بين الأجهزة؟",
+    "faqSyncingAnswer1":"سجل الترجمات دلوقتي متخزن محليًا على جهازك بس.",
+    "faqSyncingAnswer2":"مزامنة الأجهزة مخطط ليها في تحديث قادم.",
+    "faqSyncingAnswer3":"احرصي على حفظ الترجمات المهمة يدويًا حاليًا.",
+    "faqPremiumQuestion":"هستفيد بإيه من النسخة المميزة؟",
+    "faqPremiumAnswer1":"حزم لغات غير محدودة للاستخدام دون اتصال.",
+    "faqPremiumAnswer2":"سرعة ترجمة أعلى من غير إعلانات.",
+    "faqPremiumAnswer3":"وصول مبكر للمميزات الجديدة.",
+    "faqLanguagesQuestion":"كام لغة متاحة في التطبيق؟",
+    "faqLanguagesAnswer1":"تُرجمان بيدعم عشرات اللغات لترجمة النصوص.",
+    "faqLanguagesAnswer2":"بنضيف لغات جديدة باستمرار بناءً على طلبات المستخدمين.",
+    "faqLanguagesAnswer3":"شوفي قسم اللغات في الإعدادات للقائمة الكاملة.",
+    "faqVoiceQuestion":"إزاي تشتغل الترجمة الصوتية؟",
+    "faqVoiceAnswer1":"دوسي على أيقونة الميكروفون وتكلمي بوضوح في جهازك.",
+    "faqVoiceAnswer2":"كلامك بيتحول لنص وبيتترجم في نفس الوقت.",
+    "faqVoiceAnswer3":"الترجمة الصوتية محتاجة اتصال إنترنت فعّال.",
+    "privacyPolicy":"سياسة الخصوصية",
+    "legalDocumentation":"وثيقة قانونية",
+    "privacyPolicyTitle":"سياسة الخصوصية",
+    "lastUpdated":"آخر تحديث: يونيو 2026",
+    "secureByDesign":"آمن بالتصميم",
+    "secureByDesignSubtitle":"بياناتك مشفّرة ولا تُباع أبدًا لأي طرف ثالث.",
+    "processingStorageTag":"المعالجة والتخزين",
+    "dataCollectionTitle":"البيانات اللي بنجمعها",
+    "dataCollectionContent":"بنجمع النصوص والصور والملفات الصوتية اللي بتختاري ترجمتها، بالإضافة لمعلومات أساسية عن جهازك لتحسين أداء التطبيق.",
+    "dataCollectionQuote":"إحنا أبدًا مش بنقرأ أو نخزّن ترجماتك لأي غرض غير تقديم الخدمة ليكِ.",
+    "offlineModeTag":"الوضع غير المتصل",
+    "offlineUsageTitle":"الاستخدام دون اتصال",
+    "offlineUsageContent":"لما تنزلي حزمة لغة، الترجمة بتحصل بالكامل على جهازك ومفيش أي بيانات بترسل لسيرفراتنا.",
+    "audioInputTag":"الإدخال الصوتي",
+    "microphoneAccessTitle":"صلاحية الميكروفون",
+    "microphoneAccessContent":"صلاحية الميكروفون بتتستخدم بس وانتِ بتسجلي ترجمة صوتية فعليًا.",
+    "microphoneBullet1":"الصوت بيتعالج فورًا ومش بيتخزن بعد الترجمة.",
+    "microphoneBullet2":"تقدري تلغي صلاحية الميكروفون في أي وقت من إعدادات جهازك.",
+    "dataSharingTag":"مشاركة البيانات",
+    "thirdPartyTitle":"خدمات الطرف الثالث",
+    "thirdPartyContent":"بنستخدم خدمات موثوقة من أطراف ثالثة فقط لمعالجة الترجمة وتشغيل التطبيق. إحنا مش بنبيع بياناتك الشخصية.",
+    "termsOfService":"شروط الخدمة",
+    "termsLastUpdated":"آخر تحديث: أكتوبر 2026",
+    "termsUpdatedTag":"تحديث: أكتوبر 2026",
+    "termsOfServiceTitle":"الإطار القانوني لتُرجمان",
+    "termsOfServiceDescription":"من فضلك اقرأي الشروط دي بعناية. باستخدامك تُرجمان، إنتِ موافقة على الالتزام بالشروط دي اللي بتحكم علاقتنا بيكِ فيما يخص المنصة.",
+    "acceptanceOfTermsTitle":"قبول الشروط",
+    "acceptanceOfTermsContent":"باستخدامك أو دخولك لتُرجمان، إنتِ بتقري إنك قرأتي وفهمتي وموافقة على الالتزام بشروط الخدمة دي وسياسة الخصوصية بتاعتنا. لو مش موافقة على الشروط دي، لازم متستخدميش خدماتنا.",
+    "acceptanceBullet1":"لازم تكوني 18 سنة على الأقل عشان تفتحي حساب.",
+    "acceptanceBullet2":"الاتفاقية دي بتمثل عقد ملزم قانونيًا بينك وبين تُرجمان.",
+    "licenseToUseTitle":"ترخيص الاستخدام",
+    "licenseToUseContent":"إحنا بنمنحك ترخيص محدود وغير حصري وغير قابل للتحويل وقابل للإلغاء لاستخدام تُرجمان لأغراض الترجمة الشخصية غير التجارية.",
+    "licenseToUseQuote":"تقنيتنا مصممة عشان تسد فجوات التواصل العالمي. ده بيضمن إن ملكيتنا الفكرية محترمة مع تقديم أدوات ترجمة عالية الجودة ليكِ.",
+    "prohibitedConductIntro":"ممنوع تمامًا على المستخدمين القيام بأي نشاط بيهدد سلامة أو أمان تُرجمان. الأفعال الممنوعة تشمل:",
+    "reverseEngineeringTitle":"الهندسة العكسية",
+    "reverseEngineeringDescription":"محاولة استخراج الكود المصدري أو الخوارزميات.",
+    "securityBreachesTitle":"اختراق الأمان",
+    "securityBreachesDescription":"تجاوز أي إجراءات بنستخدمها لمنع أو تقييد الوصول.",
+    "automatedAccessTitle":"الوصول الآلي",
+    "automatedAccessDescription":"استخدام بوتات أو أدوات استخراج بيانات للوصول من غير إذن.",
+    "illegalContentTitle":"محتوى غير قانوني",
+    "illegalContentDescription":"ترجمة محتوى بيخالف القوانين الدولية.",
+    "committedToTransparency":"ملتزمون بالشفافية",
+    "committedToTransparencySubtitle":"شروطنا مصممة عشان تحمي المستخدمين والتقنية بتاعتنا. إحنا بنؤمن بالتواصل الواضح والمفتوح."
 }

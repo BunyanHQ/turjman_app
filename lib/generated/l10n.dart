@@ -1,6 +1,7 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+
 import 'intl/messages_all.dart';
 
 // **************************************************************************
@@ -18,8 +19,10 @@ class S {
   static S? _current;
 
   static S get current {
-    assert(_current != null,
-        'No instance of S was loaded. Try to initialize the S delegate before accessing S.current.');
+    assert(
+      _current != null,
+      'No instance of S was loaded. Try to initialize the S delegate before accessing S.current.',
+    );
     return _current!;
   }
 
@@ -41,8 +44,10 @@ class S {
 
   static S of(BuildContext context) {
     final instance = S.maybeOf(context);
-    assert(instance != null,
-        'No instance of S present in the widget tree. Did you add S.delegate in localizationsDelegates?');
+    assert(
+      instance != null,
+      'No instance of S present in the widget tree. Did you add S.delegate in localizationsDelegates?',
+    );
     return instance!;
   }
 
@@ -55,8 +60,7 @@ class S {
     return Intl.message(
       'Copied to clipboard',
       name: 'copySuccess',
-      desc:
-          'The message displayed when text is successfully copied to the clipboard',
+      desc: 'The message displayed when text is successfully copied to the clipboard',
       args: [],
     );
   }
@@ -411,6 +415,16 @@ class S {
     );
   }
 
+  /// `Support`
+  String get support {
+    return Intl.message(
+      'Support',
+      name: 'support',
+      desc: 'The label for support section',
+      args: [],
+    );
+  }
+
   /// `Theme`
   String get themeTitle {
     return Intl.message(
@@ -637,6 +651,926 @@ class S {
       'Update',
       name: 'update',
       desc: 'The label for the update button',
+      args: [],
+    );
+  }
+
+  /// `Contact Us`
+  String get contactUsTitle {
+    return Intl.message(
+      'Contact Us',
+      name: 'contactUsTitle',
+      desc: 'The title for the contact us section',
+      args: [],
+    );
+  }
+
+  /// `Get in touch with our support team`
+  String get contactUsSubtitle {
+    return Intl.message(
+      'Get in touch with our support team',
+      name: 'contactUsSubtitle',
+      desc: 'The subtitle for the contact us section',
+      args: [],
+    );
+  }
+
+  /// `Contact Us`
+  String get contactUs {
+    return Intl.message(
+      'Contact Us',
+      name: 'contactUs',
+      desc: 'The title for the contact us page',
+      args: [],
+    );
+  }
+
+  /// `We're here to help. Reach out to us through any of the channels below and our team will get back to you as soon as possible.`
+  String get contactUsDescription {
+    return Intl.message(
+      'We\'re here to help. Reach out to us through any of the channels below and our team will get back to you as soon as possible.',
+      name: 'contactUsDescription',
+      desc: 'The description shown at the top of the contact us page',
+      args: [],
+    );
+  }
+
+  /// `Customer Support`
+  String get customerSupport {
+    return Intl.message(
+      'Customer Support',
+      name: 'customerSupport',
+      desc: 'The label for the customer support section',
+      args: [],
+    );
+  }
+
+  /// `Phone Number`
+  String get contactNumber {
+    return Intl.message(
+      'Phone Number',
+      name: 'contactNumber',
+      desc: 'The label for the phone/WhatsApp number field',
+      args: [],
+    );
+  }
+
+  /// `Email Address`
+  String get emailAddress {
+    return Intl.message(
+      'Email Address',
+      name: 'emailAddress',
+      desc: 'The label for the email address field',
+      args: [],
+    );
+  }
+
+  /// `Social Media`
+  String get socialMedia {
+    return Intl.message(
+      'Social Media',
+      name: 'socialMedia',
+      desc: 'The label for the social media section',
+      args: [],
+    );
+  }
+
+  /// `Instagram`
+  String get instagram {
+    return Intl.message(
+      'Instagram',
+      name: 'instagram',
+      desc: 'The label for the Instagram link',
+      args: [],
+    );
+  }
+
+  /// `Twitter`
+  String get twitter {
+    return Intl.message(
+      'Twitter',
+      name: 'twitter',
+      desc: 'The label for the Twitter link',
+      args: [],
+    );
+  }
+
+  /// `Facebook`
+  String get facebook {
+    return Intl.message(
+      'Facebook',
+      name: 'facebook',
+      desc: 'The label for the Facebook link',
+      args: [],
+    );
+  }
+
+  /// `Rate Us`
+  String get rateUs {
+    return Intl.message(
+      'Rate Us',
+      name: 'rateUs',
+      desc: 'The title for the rate us page',
+      args: [],
+    );
+  }
+
+  /// `Your feedback helps us improve and reach more people like you.`
+  String get rateUsSubtitle {
+    return Intl.message(
+      'Your feedback helps us improve and reach more people like you.',
+      name: 'rateUsSubtitle',
+      desc: 'The subtitle for the rate us page',
+      args: [],
+    );
+  }
+
+  /// `Enjoying Turjuman?`
+  String get enjoyingApp {
+    return Intl.message(
+      'Enjoying Turjuman?',
+      name: 'enjoyingApp',
+      desc: 'The header text asking the user if they enjoy the app',
+      args: [],
+    );
+  }
+
+  /// `TELL US WHAT YOU THINK`
+  String get tellUsWhatYouThink {
+    return Intl.message(
+      'TELL US WHAT YOU THINK',
+      name: 'tellUsWhatYouThink',
+      desc: 'The label above the feedback text field',
+      args: [],
+    );
+  }
+
+  /// `Your thoughts make us better...`
+  String get yourThoughtsMakeUsBetter {
+    return Intl.message(
+      'Your thoughts make us better...',
+      name: 'yourThoughtsMakeUsBetter',
+      desc: 'The hint text inside the feedback text field',
+      args: [],
+    );
+  }
+
+  /// `Submit`
+  String get submit {
+    return Intl.message(
+      'Submit',
+      name: 'submit',
+      desc: 'The label for the submit button',
+      args: [],
+    );
+  }
+
+  /// `Maybe Later`
+  String get maybeLater {
+    return Intl.message(
+      'Maybe Later',
+      name: 'maybeLater',
+      desc: 'The label for the dismiss/skip button',
+      args: [],
+    );
+  }
+
+  /// `Help Center`
+  String get helpCenter {
+    return Intl.message(
+      'Help Center',
+      name: 'helpCenter',
+      desc: 'The title for the help center page',
+      args: [],
+    );
+  }
+
+  /// `How can we help you today?`
+  String get howCanWeHelp {
+    return Intl.message(
+      'How can we help you today?',
+      name: 'howCanWeHelp',
+      desc: 'The header text on the help center page',
+      args: [],
+    );
+  }
+
+  /// `Still need help?`
+  String get stillNeedHelp {
+    return Intl.message(
+      'Still need help?',
+      name: 'stillNeedHelp',
+      desc: 'The title of the contact support banner',
+      args: [],
+    );
+  }
+
+  /// `Our support team is ready to answer your questions.`
+  String get stillNeedHelpSubtitle {
+    return Intl.message(
+      'Our support team is ready to answer your questions.',
+      name: 'stillNeedHelpSubtitle',
+      desc: 'The subtitle of the contact support banner',
+      args: [],
+    );
+  }
+
+  /// `Contact Support`
+  String get contactSupport {
+    return Intl.message(
+      'Contact Support',
+      name: 'contactSupport',
+      desc: 'The label for the contact support button',
+      args: [],
+    );
+  }
+
+  /// `Frequently Asked Questions`
+  String get frequentlyAsked {
+    return Intl.message(
+      'Frequently Asked Questions',
+      name: 'frequentlyAsked',
+      desc: 'The title above the FAQ list',
+      args: [],
+    );
+  }
+
+  /// `Can I use the app without internet?`
+  String get faqOfflineModeQuestion {
+    return Intl.message(
+      'Can I use the app without internet?',
+      name: 'faqOfflineModeQuestion',
+      desc: 'FAQ question about offline mode',
+      args: [],
+    );
+  }
+
+  /// `Yes, once you download a language pack you can translate offline.`
+  String get faqOfflineModeAnswer1 {
+    return Intl.message(
+      'Yes, once you download a language pack you can translate offline.',
+      name: 'faqOfflineModeAnswer1',
+      desc: 'FAQ answer 1 about offline mode',
+      args: [],
+    );
+  }
+
+  /// `Go to Settings > Offline Languages to manage your downloads.`
+  String get faqOfflineModeAnswer2 {
+    return Intl.message(
+      'Go to Settings > Offline Languages to manage your downloads.',
+      name: 'faqOfflineModeAnswer2',
+      desc: 'FAQ answer 2 about offline mode',
+      args: [],
+    );
+  }
+
+  /// `Voice and image translation may still require an internet connection.`
+  String get faqOfflineModeAnswer3 {
+    return Intl.message(
+      'Voice and image translation may still require an internet connection.',
+      name: 'faqOfflineModeAnswer3',
+      desc: 'FAQ answer 3 about offline mode',
+      args: [],
+    );
+  }
+
+  /// `How do I translate text from an image?`
+  String get faqTranslateImagesQuestion {
+    return Intl.message(
+      'How do I translate text from an image?',
+      name: 'faqTranslateImagesQuestion',
+      desc: 'FAQ question about translating images',
+      args: [],
+    );
+  }
+
+  /// `Open the Image tab and choose a photo from your gallery.`
+  String get faqTranslateImagesAnswer1 {
+    return Intl.message(
+      'Open the Image tab and choose a photo from your gallery.',
+      name: 'faqTranslateImagesAnswer1',
+      desc: 'FAQ answer 1 about translating images',
+      args: [],
+    );
+  }
+
+  /// `You can also capture a new photo directly with your camera.`
+  String get faqTranslateImagesAnswer2 {
+    return Intl.message(
+      'You can also capture a new photo directly with your camera.',
+      name: 'faqTranslateImagesAnswer2',
+      desc: 'FAQ answer 2 about translating images',
+      args: [],
+    );
+  }
+
+  /// `Supported formats are JPG, PNG, and GIF.`
+  String get faqTranslateImagesAnswer3 {
+    return Intl.message(
+      'Supported formats are JPG, PNG, and GIF.',
+      name: 'faqTranslateImagesAnswer3',
+      desc: 'FAQ answer 3 about translating images',
+      args: [],
+    );
+  }
+
+  /// `Does my translation history sync across devices?`
+  String get faqSyncingQuestion {
+    return Intl.message(
+      'Does my translation history sync across devices?',
+      name: 'faqSyncingQuestion',
+      desc: 'FAQ question about syncing',
+      args: [],
+    );
+  }
+
+  /// `Translation history is currently stored locally on your device.`
+  String get faqSyncingAnswer1 {
+    return Intl.message(
+      'Translation history is currently stored locally on your device.',
+      name: 'faqSyncingAnswer1',
+      desc: 'FAQ answer 1 about syncing',
+      args: [],
+    );
+  }
+
+  /// `Cross-device sync is planned for a future update.`
+  String get faqSyncingAnswer2 {
+    return Intl.message(
+      'Cross-device sync is planned for a future update.',
+      name: 'faqSyncingAnswer2',
+      desc: 'FAQ answer 2 about syncing',
+      args: [],
+    );
+  }
+
+  /// `Make sure to back up important translations manually for now.`
+  String get faqSyncingAnswer3 {
+    return Intl.message(
+      'Make sure to back up important translations manually for now.',
+      name: 'faqSyncingAnswer3',
+      desc: 'FAQ answer 3 about syncing',
+      args: [],
+    );
+  }
+
+  /// `What do I get with premium?`
+  String get faqPremiumQuestion {
+    return Intl.message(
+      'What do I get with premium?',
+      name: 'faqPremiumQuestion',
+      desc: 'FAQ question about premium',
+      args: [],
+    );
+  }
+
+  /// `Unlimited offline language packs.`
+  String get faqPremiumAnswer1 {
+    return Intl.message(
+      'Unlimited offline language packs.',
+      name: 'faqPremiumAnswer1',
+      desc: 'FAQ answer 1 about premium',
+      args: [],
+    );
+  }
+
+  /// `Priority translation speed with no ads.`
+  String get faqPremiumAnswer2 {
+    return Intl.message(
+      'Priority translation speed with no ads.',
+      name: 'faqPremiumAnswer2',
+      desc: 'FAQ answer 2 about premium',
+      args: [],
+    );
+  }
+
+  /// `Early access to new features.`
+  String get faqPremiumAnswer3 {
+    return Intl.message(
+      'Early access to new features.',
+      name: 'faqPremiumAnswer3',
+      desc: 'FAQ answer 3 about premium',
+      args: [],
+    );
+  }
+
+  /// `How many languages are supported?`
+  String get faqLanguagesQuestion {
+    return Intl.message(
+      'How many languages are supported?',
+      name: 'faqLanguagesQuestion',
+      desc: 'FAQ question about supported languages',
+      args: [],
+    );
+  }
+
+  /// `Turjuman supports dozens of languages for text translation.`
+  String get faqLanguagesAnswer1 {
+    return Intl.message(
+      'Turjuman supports dozens of languages for text translation.',
+      name: 'faqLanguagesAnswer1',
+      desc: 'FAQ answer 1 about supported languages',
+      args: [],
+    );
+  }
+
+  /// `New languages are added regularly based on user requests.`
+  String get faqLanguagesAnswer2 {
+    return Intl.message(
+      'New languages are added regularly based on user requests.',
+      name: 'faqLanguagesAnswer2',
+      desc: 'FAQ answer 2 about supported languages',
+      args: [],
+    );
+  }
+
+  /// `Check the Languages section in Settings for the full list.`
+  String get faqLanguagesAnswer3 {
+    return Intl.message(
+      'Check the Languages section in Settings for the full list.',
+      name: 'faqLanguagesAnswer3',
+      desc: 'FAQ answer 3 about supported languages',
+      args: [],
+    );
+  }
+
+  /// `How does voice translation work?`
+  String get faqVoiceQuestion {
+    return Intl.message(
+      'How does voice translation work?',
+      name: 'faqVoiceQuestion',
+      desc: 'FAQ question about voice translation',
+      args: [],
+    );
+  }
+
+  /// `Tap the microphone icon and speak clearly into your device.`
+  String get faqVoiceAnswer1 {
+    return Intl.message(
+      'Tap the microphone icon and speak clearly into your device.',
+      name: 'faqVoiceAnswer1',
+      desc: 'FAQ answer 1 about voice translation',
+      args: [],
+    );
+  }
+
+  /// `Your speech is converted to text and translated in real time.`
+  String get faqVoiceAnswer2 {
+    return Intl.message(
+      'Your speech is converted to text and translated in real time.',
+      name: 'faqVoiceAnswer2',
+      desc: 'FAQ answer 2 about voice translation',
+      args: [],
+    );
+  }
+
+  /// `Voice translation requires an active internet connection.`
+  String get faqVoiceAnswer3 {
+    return Intl.message(
+      'Voice translation requires an active internet connection.',
+      name: 'faqVoiceAnswer3',
+      desc: 'FAQ answer 3 about voice translation',
+      args: [],
+    );
+  }
+
+  /// `Privacy Policy`
+  String get privacyPolicy {
+    return Intl.message(
+      'Privacy Policy',
+      name: 'privacyPolicy',
+      desc: 'The title for the privacy policy page',
+      args: [],
+    );
+  }
+
+  /// `LEGAL DOCUMENTATION`
+  String get legalDocumentation {
+    return Intl.message(
+      'LEGAL DOCUMENTATION',
+      name: 'legalDocumentation',
+      desc: 'The small tag label above the privacy policy title',
+      args: [],
+    );
+  }
+
+  /// `Privacy Policy`
+  String get privacyPolicyTitle {
+    return Intl.message(
+      'Privacy Policy',
+      name: 'privacyPolicyTitle',
+      desc: 'The large title on the privacy policy page',
+      args: [],
+    );
+  }
+
+  /// `Last updated: June 2026`
+  String get lastUpdated {
+    return Intl.message(
+      'Last updated: June 2026',
+      name: 'lastUpdated',
+      desc: 'The label showing when the privacy policy was last updated',
+      args: [],
+    );
+  }
+
+  /// `Secure by Design`
+  String get secureByDesign {
+    return Intl.message(
+      'Secure by Design',
+      name: 'secureByDesign',
+      desc: 'The title of the secure-by-design highlight card',
+      args: [],
+    );
+  }
+
+  /// `Your data is encrypted and never sold to third parties.`
+  String get secureByDesignSubtitle {
+    return Intl.message(
+      'Your data is encrypted and never sold to third parties.',
+      name: 'secureByDesignSubtitle',
+      desc: 'The subtitle of the secure-by-design highlight card',
+      args: [],
+    );
+  }
+
+  /// `PROCESSING & STORAGE`
+  String get processingStorageTag {
+    return Intl.message(
+      'PROCESSING & STORAGE',
+      name: 'processingStorageTag',
+      desc: 'The tag label for the data collection section',
+      args: [],
+    );
+  }
+
+  /// `Data We Collect`
+  String get dataCollectionTitle {
+    return Intl.message(
+      'Data We Collect',
+      name: 'dataCollectionTitle',
+      desc: 'The title for the data collection section',
+      args: [],
+    );
+  }
+
+  /// `We collect the text, images, and audio you choose to translate, along with basic device information to improve app performance.`
+  String get dataCollectionContent {
+    return Intl.message(
+      'We collect the text, images, and audio you choose to translate, along with basic device information to improve app performance.',
+      name: 'dataCollectionContent',
+      desc: 'The content for the data collection section',
+      args: [],
+    );
+  }
+
+  /// `We never read or store your translations for any purpose other than providing the service to you.`
+  String get dataCollectionQuote {
+    return Intl.message(
+      'We never read or store your translations for any purpose other than providing the service to you.',
+      name: 'dataCollectionQuote',
+      desc: 'The highlighted quote inside the data collection section',
+      args: [],
+    );
+  }
+
+  /// `OFFLINE MODE`
+  String get offlineModeTag {
+    return Intl.message(
+      'OFFLINE MODE',
+      name: 'offlineModeTag',
+      desc: 'The tag label for the offline usage section',
+      args: [],
+    );
+  }
+
+  /// `Offline Usage`
+  String get offlineUsageTitle {
+    return Intl.message(
+      'Offline Usage',
+      name: 'offlineUsageTitle',
+      desc: 'The title for the offline usage section',
+      args: [],
+    );
+  }
+
+  /// `When you download a language pack, translations happen entirely on your device and are never sent to our servers.`
+  String get offlineUsageContent {
+    return Intl.message(
+      'When you download a language pack, translations happen entirely on your device and are never sent to our servers.',
+      name: 'offlineUsageContent',
+      desc: 'The content for the offline usage section',
+      args: [],
+    );
+  }
+
+  /// `AUDIO INPUT`
+  String get audioInputTag {
+    return Intl.message(
+      'AUDIO INPUT',
+      name: 'audioInputTag',
+      desc: 'The tag label for the microphone access section',
+      args: [],
+    );
+  }
+
+  /// `Microphone Access`
+  String get microphoneAccessTitle {
+    return Intl.message(
+      'Microphone Access',
+      name: 'microphoneAccessTitle',
+      desc: 'The title for the microphone access section',
+      args: [],
+    );
+  }
+
+  /// `Microphone access is only used while you are actively recording a voice translation.`
+  String get microphoneAccessContent {
+    return Intl.message(
+      'Microphone access is only used while you are actively recording a voice translation.',
+      name: 'microphoneAccessContent',
+      desc: 'The content for the microphone access section',
+      args: [],
+    );
+  }
+
+  /// `Audio is processed in real time and not stored after translation.`
+  String get microphoneBullet1 {
+    return Intl.message(
+      'Audio is processed in real time and not stored after translation.',
+      name: 'microphoneBullet1',
+      desc: 'First bullet point for the microphone access section',
+      args: [],
+    );
+  }
+
+  /// `You can revoke microphone permission anytime from your device settings.`
+  String get microphoneBullet2 {
+    return Intl.message(
+      'You can revoke microphone permission anytime from your device settings.',
+      name: 'microphoneBullet2',
+      desc: 'Second bullet point for the microphone access section',
+      args: [],
+    );
+  }
+
+  /// `DATA SHARING`
+  String get dataSharingTag {
+    return Intl.message(
+      'DATA SHARING',
+      name: 'dataSharingTag',
+      desc: 'The tag label for the third-party section',
+      args: [],
+    );
+  }
+
+  /// `Third-Party Services`
+  String get thirdPartyTitle {
+    return Intl.message(
+      'Third-Party Services',
+      name: 'thirdPartyTitle',
+      desc: 'The title for the third-party section',
+      args: [],
+    );
+  }
+
+  /// `We use trusted third-party services strictly for translation processing and app functionality. We do not sell your personal data.`
+  String get thirdPartyContent {
+    return Intl.message(
+      'We use trusted third-party services strictly for translation processing and app functionality. We do not sell your personal data.',
+      name: 'thirdPartyContent',
+      desc: 'The content for the third-party section',
+      args: [],
+    );
+  }
+
+  /// `Terms of Service`
+  String get termsOfService {
+    return Intl.message(
+      'Terms of Service',
+      name: 'termsOfService',
+      desc: 'The title for the terms of service page',
+      args: [],
+    );
+  }
+
+  /// `Last updated: October 2026`
+  String get termsLastUpdated {
+    return Intl.message(
+      'Last updated: October 2026',
+      name: 'termsLastUpdated',
+      desc: 'The subtitle showing when the terms were last updated',
+      args: [],
+    );
+  }
+
+  /// `UPDATED: OCTOBER 2026`
+  String get termsUpdatedTag {
+    return Intl.message(
+      'UPDATED: OCTOBER 2026',
+      name: 'termsUpdatedTag',
+      desc: 'The small tag label above the terms of service title',
+      args: [],
+    );
+  }
+
+  /// `Legal Framework for Turjuman`
+  String get termsOfServiceTitle {
+    return Intl.message(
+      'Legal Framework for Turjuman',
+      name: 'termsOfServiceTitle',
+      desc: 'The large title on the terms of service page',
+      args: [],
+    );
+  }
+
+  /// `Please read these terms carefully. By using Turjuman, you agree to be bound by these conditions which govern our relationship with you in relation to this platform.`
+  String get termsOfServiceDescription {
+    return Intl.message(
+      'Please read these terms carefully. By using Turjuman, you agree to be bound by these conditions which govern our relationship with you in relation to this platform.',
+      name: 'termsOfServiceDescription',
+      desc: 'The description shown below the terms of service title',
+      args: [],
+    );
+  }
+
+  /// `Acceptance of Terms`
+  String get acceptanceOfTermsTitle {
+    return Intl.message(
+      'Acceptance of Terms',
+      name: 'acceptanceOfTermsTitle',
+      desc: 'The title for section 1 of the terms',
+      args: [],
+    );
+  }
+
+  /// `By accessing or using Turjuman, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, you must not use our services.`
+  String get acceptanceOfTermsContent {
+    return Intl.message(
+      'By accessing or using Turjuman, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, you must not use our services.',
+      name: 'acceptanceOfTermsContent',
+      desc: 'The content for section 1 of the terms',
+      args: [],
+    );
+  }
+
+  /// `You must be at least 18 years of age to create an account.`
+  String get acceptanceBullet1 {
+    return Intl.message(
+      'You must be at least 18 years of age to create an account.',
+      name: 'acceptanceBullet1',
+      desc: 'First checklist item for acceptance of terms',
+      args: [],
+    );
+  }
+
+  /// `The agreement constitutes a legally binding contract between you and Turjuman.`
+  String get acceptanceBullet2 {
+    return Intl.message(
+      'The agreement constitutes a legally binding contract between you and Turjuman.',
+      name: 'acceptanceBullet2',
+      desc: 'Second checklist item for acceptance of terms',
+      args: [],
+    );
+  }
+
+  /// `License to Use`
+  String get licenseToUseTitle {
+    return Intl.message(
+      'License to Use',
+      name: 'licenseToUseTitle',
+      desc: 'The title for section 2 of the terms',
+      args: [],
+    );
+  }
+
+  /// `We grant you a limited, non-exclusive, non-transferable, and revocable license to use Turjuman for personal, non-commercial translation purposes.`
+  String get licenseToUseContent {
+    return Intl.message(
+      'We grant you a limited, non-exclusive, non-transferable, and revocable license to use Turjuman for personal, non-commercial translation purposes.',
+      name: 'licenseToUseContent',
+      desc: 'The content for section 2 of the terms',
+      args: [],
+    );
+  }
+
+  /// `Our technology is designed to bridge global communication gaps. This ensures that our intellectual property is respected while providing you with high-quality translation tools.`
+  String get licenseToUseQuote {
+    return Intl.message(
+      'Our technology is designed to bridge global communication gaps. This ensures that our intellectual property is respected while providing you with high-quality translation tools.',
+      name: 'licenseToUseQuote',
+      desc: 'The highlighted quote inside the license to use section',
+      args: [],
+    );
+  }
+
+  /// `Users are strictly prohibited from engaging in activities that compromise the integrity or security of Turjuman. Prohibited actions include:`
+  String get prohibitedConductIntro {
+    return Intl.message(
+      'Users are strictly prohibited from engaging in activities that compromise the integrity or security of Turjuman. Prohibited actions include:',
+      name: 'prohibitedConductIntro',
+      desc: 'The intro text for section 3, prohibited conduct',
+      args: [],
+    );
+  }
+
+  /// `Reverse Engineering`
+  String get reverseEngineeringTitle {
+    return Intl.message(
+      'Reverse Engineering',
+      name: 'reverseEngineeringTitle',
+      desc: 'Title for the reverse engineering prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Attempting to extract the source code or algorithms.`
+  String get reverseEngineeringDescription {
+    return Intl.message(
+      'Attempting to extract the source code or algorithms.',
+      name: 'reverseEngineeringDescription',
+      desc: 'Description for the reverse engineering prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Security Breaches`
+  String get securityBreachesTitle {
+    return Intl.message(
+      'Security Breaches',
+      name: 'securityBreachesTitle',
+      desc: 'Title for the security breaches prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Bypassing any measures we use to prevent or restrict access.`
+  String get securityBreachesDescription {
+    return Intl.message(
+      'Bypassing any measures we use to prevent or restrict access.',
+      name: 'securityBreachesDescription',
+      desc: 'Description for the security breaches prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Automated Access`
+  String get automatedAccessTitle {
+    return Intl.message(
+      'Automated Access',
+      name: 'automatedAccessTitle',
+      desc: 'Title for the automated access prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Using bots or scrapers to access data without permission.`
+  String get automatedAccessDescription {
+    return Intl.message(
+      'Using bots or scrapers to access data without permission.',
+      name: 'automatedAccessDescription',
+      desc: 'Description for the automated access prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Illegal Content`
+  String get illegalContentTitle {
+    return Intl.message(
+      'Illegal Content',
+      name: 'illegalContentTitle',
+      desc: 'Title for the illegal content prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Translating content that violates international laws.`
+  String get illegalContentDescription {
+    return Intl.message(
+      'Translating content that violates international laws.',
+      name: 'illegalContentDescription',
+      desc: 'Description for the illegal content prohibited item',
+      args: [],
+    );
+  }
+
+  /// `Committed to Transparency`
+  String get committedToTransparency {
+    return Intl.message(
+      'Committed to Transparency',
+      name: 'committedToTransparency',
+      desc: 'The title of the transparency highlight card',
+      args: [],
+    );
+  }
+
+  /// `Our terms are designed to protect both our users and our technology. We believe in clear, open communication.`
+  String get committedToTransparencySubtitle {
+    return Intl.message(
+      'Our terms are designed to protect both our users and our technology. We believe in clear, open communication.',
+      name: 'committedToTransparencySubtitle',
+      desc: 'The subtitle of the transparency highlight card',
       args: [],
     );
   }
